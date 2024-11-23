@@ -20,10 +20,11 @@ fi
 # search, exit if output fits on a single screen
 export LESS='--LONG-PROMPT --tabs=4 --RAW-CONTROL-CHARS --ignore-case --quit-if-one-screen --mouse'
 
-# Define default editor for Git, C-x C-e, and fc
-export VISUAL='nvim'
-export EDITOR='nvim'
-export FCEDIT='nvim'
+#set global editor to vim
+export VISUAL='vim'
+export EDITOR='vim'
+export FCEDIT='vim'
+git config --global core.editor "vim"
 
 # Colours for grep results
 export GREP_COLORS='mt=01;31:sl=:cx=00;38;5;10:fn=38;2;108;113;196:ln=32:bn=35:se=33'
@@ -94,7 +95,7 @@ fi
 
 # Set custom prompt if present
 if [[ $color_prompt == 'yes' ]]; then
-	# shellcheck source=/dev/null
+	 #shellcheck source=/dev/null
 	. "$HOME/.myprompt.bash"
 	PROMPT_COMMAND=('set_prompt' "${PROMPT_COMMAND[@]}")
 else
@@ -115,7 +116,7 @@ fi
 
 # Source asdf
 # shellcheck source=/dev/null
-source "$ASDF_DIR/asdf.sh"
+#source "$ASDF_DIR/asdf.sh"
 
 # Alias definitions
 if [[ -f $HOME/.aliases.sh ]]; then
@@ -134,3 +135,6 @@ if [[ -r $HOME/.bashrc_local ]]; then
 	# shellcheck source=/dev/null
 	. "$HOME/.bashrc_local"
 fi
+
+
+

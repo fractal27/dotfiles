@@ -1,3 +1,3 @@
 indent: yes
-quiet: yes
-wrap: 120
+quiet: no
+wrap: 105

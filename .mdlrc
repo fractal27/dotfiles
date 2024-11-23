@@ -1,2 +1,0 @@
-style ENV['HOME'] + '/.config/mdl/style.rb'
-ignore_front_matter = true

@@ -2,7 +2,7 @@
 	# Abbreviate object names
 	abbrev = auto
 	# Default editor
-	editor = nvim
+	editor = vim
 	# Use Delta as the default pager
 	pager = delta
 
@@ -182,3 +182,6 @@
 	path = config_local
 
 # vim:ft=gitconfig
+[user]
+	email = giacomo.dominici07@gmail.com
+	name = fractal27
