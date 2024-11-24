@@ -115,6 +115,8 @@
 
 [init]
 	defaultBranch = main
+	defaultBranch = master
+	defaultBranch = master
 
 [interactive]
 	# Run diffs such as "git add --patch" through delta
@@ -185,3 +187,9 @@
 [user]
 	email = giacomo.dominici07@gmail.com
 	name = fractal27
+[safe]
+	directory = /home/dome/Personal/
+	directory = /home/dome/Personal/lexer
+	directory = /home/dome/Personal/minimallogs/
+	directory = /home/dome/Personal/tconfig/
+	directory = /home/dome/Personal/lsall
