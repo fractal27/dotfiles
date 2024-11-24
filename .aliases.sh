@@ -54,8 +54,11 @@ alias open="xdg-open"
 # Always show directories first
 alias tree='tree --dirsfirst'
 
+alias xterm="xterm -fg white -bg gray12 -fs 12"
+
 # Local alias definitions
 if [[ -f $HOME/.aliases_local.sh ]]; then
 	# shellcheck source=/dev/null
 	. "$HOME/.aliases_local.sh"
 fi
+
