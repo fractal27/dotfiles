@@ -64,6 +64,13 @@ alias ali="vim ~/.aliases.sh"
 alias bshc="vim ~/.bashrc"
 alias zshc="vim ~/.zshrc"
 
+command_fzf() { #because neccessary for lines +4&+5
+    $1 $(fzf)
+}
+
+alias fv="command_fzf vim" #open fuzzy find file with vim
+alias fo="command_fzf open-xdg" #open fuzzy find file with default
+
 
 
 # Local alias definitions

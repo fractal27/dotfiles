@@ -10,4 +10,7 @@ source ~/.vim_runtime/vimrcs/extended.vim
 try
   source ~/.vim_runtime/my_configs.vim
 catch
+
+
+
 endtry

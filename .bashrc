@@ -136,5 +136,9 @@ if [[ -r $HOME/.bashrc_local ]]; then
 	. "$HOME/.bashrc_local"
 fi
 
+# feh set background
+if [[ -f $HOME/.fehbg ]]; then
+	. "$HOME/.fehbg"
+fi
 
 
