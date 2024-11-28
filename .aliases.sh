@@ -55,7 +55,8 @@ alias open="xdg-open"
 alias tree='tree --dirsfirst'
 
 alias xterm="xterm -fg white -bg gray12 -fs 12"
-alias r=". ranger"
+alias r=". ranger"  # shell moves through directories as user moves in `ranger`
+alias rn="ranger"   # contrary
 alias f="find -name"
 alias pr="cd ~/Personal"
 alias conf="cd ~/.config"

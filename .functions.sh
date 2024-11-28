@@ -265,8 +265,26 @@ upgradexsv() (
 	xsv --version
 )
 
+updatesh() {
+    shell=$(ps -p $$ | tail -1 | rev | cut -d " " -f1 | rev)
+    #shell=$(ps -ef | grep $$ | grep -v grep)
+    if [[ $shell == "bash" ]]; then
+        . $HOME/.bashrc
+        . $HOME/.functions.sh
+        . $HOME/.aliases.sh
+        printf "[ \e[32mOK\e[0m ]  UPDATED bash configuration\n"
+    elif [[ $shell == "zsh" ]]; then
+        . $HOME/.zshrc
+        printf "[ \e[32mOK\e[0m ]  UPDATED zshrc configuration\n"
+    else
+        printf "[ \e[31mERROR\e[0m ] Cannot update configuration: shell unknown: '$shell'\n"
+    fi
+}
+
 # Local function definitions
 if [[ -f $HOME/.functions_local.bash ]]; then
 	# shellcheck source=/dev/null
 	. "$HOME/.functions_local.bash"
 fi
+
+

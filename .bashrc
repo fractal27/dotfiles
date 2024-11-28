@@ -125,9 +125,9 @@ if [[ -f $HOME/.aliases.sh ]]; then
 fi
 
 # Source custom utility functions
-if [[ -f $HOME/.functions.bash ]]; then
+if [[ -f $HOME/.functions.sh ]]; then
 	# shellcheck source=/dev/null
-	. "$HOME/.functions.bash"
+	. "$HOME/.functions.sh"
 fi
 
 # Local settings
