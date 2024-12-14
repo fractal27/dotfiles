@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/HOME
+~MSle0~/[2]
 
 # Last Substitute Search Pattern:
 ~MSle0&SRC
@@ -21,11 +21,13 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1734182700,,"wq"
+|2,0,1734183530,,"wq"
+:1
+|2,0,1734183515,,"1"
 :q
-|2,0,1734182697,,"q"
+|2,0,1734183504,,"q"
 :w
-|2,0,1734182683,,"w"
+|2,0,1734183369,,"w"
 :q!
 |2,0,1734182262,,"q!"
 :w ../notes/2024-12-14\(notes\).md
@@ -40,8 +42,6 @@ $
 |2,0,1733954867,,"W"
 :W!
 |2,0,1733954771,,"W!"
-:1
-|2,0,1733954538,,"1"
 :%s/SRC/SOURCE
 |2,0,1733943406,,"%s/SRC/SOURCE"
 :%s/DEST/DESTINATION
@@ -133,7 +133,11 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1734182540,,"\\s\\+$"
+|2,1,1734183530,,"\\s\\+$"
+?/[2]
+|2,1,1734182891,47,"[2]"
+?/[1]
+|2,1,1734182828,47,"[1]"
 ?/HOME/Personal/
 |2,1,1734182496,47,"HOME/Personal/"
 ?/lesspipe
@@ -482,36 +486,36 @@ $
 	inoremap <C-BS> cb
 |3,0,0,1,1,0,1734107661,"inoremap <C-BS> cb"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1734182685,""
+	example: `.profile` sources `.profile_local`. The machine specific dotfiles
+|3,0,1,1,1,0,1734182853,"example: `.profile` sources `.profile_local`. The machine specific dotfiles"
 "2	LINE	0
-	
-	
-|3,0,2,1,2,0,1734181710,"",""
+	live in a [private GitHub repo][1].
+|3,0,2,1,1,0,1734182852,"live in a [private GitHub repo][1]."
 "3	LINE	0
 	
-|3,0,3,1,1,0,1734107613,""
-"4	CHAR	0
+|3,0,3,1,1,0,1734182685,""
+"4	LINE	0
+	
+	
+|3,0,4,1,2,0,1734181710,"",""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1734107613,""
+"6	CHAR	0
 	j
 	map <C-k> <C-W>k
 	map <C-h> <C-W>h
 	
-|3,0,4,0,4,0,1734107594,"j","map <C-k> <C-W>k","map <C-h> <C-W>h",""
-"5	LINE	0
-	vnoremap <C-BS> <Esc>cb
-|3,0,5,1,1,0,1734107559,"vnoremap <C-BS> <Esc>cb"
-"6	LINE	0
-	    alias fhi "vim "
-|3,0,6,1,1,0,1734106834,"    alias fhi \"vim \""
+|3,0,6,0,4,0,1734107594,"j","map <C-k> <C-W>k","map <C-h> <C-W>h",""
 "7	LINE	0
-	    aasca acsas
-|3,0,7,1,1,0,1734106334,"    aasca acsas"
+	vnoremap <C-BS> <Esc>cb
+|3,0,7,1,1,0,1734107559,"vnoremap <C-BS> <Esc>cb"
 "8	LINE	0
-	use vim
-|3,0,8,1,1,0,1733955513,"use vim"
+	    alias fhi "vim "
+|3,0,8,1,1,0,1734106834,"    alias fhi \"vim \""
 "9	LINE	0
-		K 
-|3,0,9,1,1,0,1733955069,"	K "
+	    aasca acsas
+|3,0,9,1,1,0,1734106334,"    aasca acsas"
 "a@	CHAR	0
 	F)€ý5xF,€ý5r)€ý5a << k
 |3,2,10,0,1,0,1733521070,"F)€ý5xF,€ý5r)€ý5a << k"
@@ -519,234 +523,258 @@ $
 	N$@a€ý5€ý5€ý5
 |3,0,28,0,1,0,1733521151,"N$@a€ý5€ý5€ý5"
 ""-	CHAR	0
-	jjjj
-|3,1,36,0,1,0,1734182687,"jjjj"
+	NwaGL
+|3,1,36,0,1,0,1734183488,"NwaGL"
 
 # File marks:
-'0  10  0  ~/.gitignore
-|4,48,10,0,1734182700,"~/.gitignore"
-'1  1  0  ~/NERD_tree_win_1
-|4,49,1,0,1734182601,"~/NERD_tree_win_1"
-'2  1  0  ~/.gitignore
-|4,50,1,0,1734182594,"~/.gitignore"
-'3  1  0  ~/.gitignore
-|4,51,1,0,1734182594,"~/.gitignore"
-'4  1  0  ~/Personal/projects/.gitignore
-|4,52,1,0,1734182589,"~/Personal/projects/.gitignore"
-'5  72  8  ~/.aliases.sh
-|4,53,72,8,1734182541,"~/.aliases.sh"
-'6  1  0  ~/Personal/projects/.aliases
-|4,54,1,0,1734182509,"~/Personal/projects/.aliases"
-'7  141  5  ~/.bashrc
-|4,55,141,5,1734182501,"~/.bashrc"
-'8  1  0  ~/Personal/projects/.bashrc
-|4,56,1,0,1734182484,"~/Personal/projects/.bashrc"
-'9  1  0  ~/Personal/projects/bashrc
-|4,57,1,0,1734182481,"~/Personal/projects/bashrc"
+'0  18  66  ~/.aliases.sh
+|4,48,18,66,1734183530,"~/.aliases.sh"
+'1  86  0  ~/.bashrc
+|4,49,86,0,1734183504,"~/.bashrc"
+'2  23  0  ~/README.md
+|4,50,23,0,1734183498,"~/README.md"
+'3  13  39  ~/README.md
+|4,51,13,39,1734183494,"~/README.md"
+'4  13  39  ~/README.md
+|4,52,13,39,1734183494,"~/README.md"
+'5  10  0  ~/.gitignore
+|4,53,10,0,1734182700,"~/.gitignore"
+'6  1  0  ~/NERD_tree_win_1
+|4,54,1,0,1734182601,"~/NERD_tree_win_1"
+'7  1  0  ~/.gitignore
+|4,55,1,0,1734182594,"~/.gitignore"
+'8  1  0  ~/.gitignore
+|4,56,1,0,1734182594,"~/.gitignore"
+'9  1  0  ~/Personal/projects/.gitignore
+|4,57,1,0,1734182589,"~/Personal/projects/.gitignore"
 
 # Jumplist (newest first):
--'  10  0  ~/.gitignore
-|4,39,10,0,1734182700,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1734182605,"~/.gitignore"
--'  1  0  ~/NERD_tree_win_1
-|4,39,1,0,1734182601,"~/NERD_tree_win_1"
--'  1  0  ~/NERD_tree_win_1
-|4,39,1,0,1734182601,"~/NERD_tree_win_1"
--'  19  2  ~/NERD_tree_win_1
-|4,39,19,2,1734182600,"~/NERD_tree_win_1"
--'  19  2  ~/NERD_tree_win_1
-|4,39,19,2,1734182600,"~/NERD_tree_win_1"
--'  1  0  ~/.gitignore
-|4,39,1,0,1734182594,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1734182594,"~/.gitignore"
--'  1  0  ~/Personal/projects/.gitignore
-|4,39,1,0,1734182589,"~/Personal/projects/.gitignore"
--'  1  0  ~/Personal/projects/.gitignore
-|4,39,1,0,1734182589,"~/Personal/projects/.gitignore"
--'  1  0  ~/Personal/projects/.gitignore
-|4,39,1,0,1734182589,"~/Personal/projects/.gitignore"
--'  1  0  ~/Personal/projects/.gitignore
-|4,39,1,0,1734182589,"~/Personal/projects/.gitignore"
--'  1  0  ~/Personal/projects/.gitignore
-|4,39,1,0,1734182589,"~/Personal/projects/.gitignore"
--'  1  0  ~/Personal/projects/.gitignore
-|4,39,1,0,1734182589,"~/Personal/projects/.gitignore"
--'  1  0  ~/Personal/projects/.gitignore
-|4,39,1,0,1734182589,"~/Personal/projects/.gitignore"
--'  1  0  ~/Personal/projects/.gitignore
-|4,39,1,0,1734182589,"~/Personal/projects/.gitignore"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  72  8  ~/.aliases.sh
-|4,39,72,8,1734182541,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  81  0  ~/.aliases.sh
-|4,39,81,0,1734182531,"~/.aliases.sh"
--'  73  0  ~/.aliases.sh
-|4,39,73,0,1734182530,"~/.aliases.sh"
+-'  18  66  ~/.aliases.sh
+|4,39,18,66,1734183530,"~/.aliases.sh"
+-'  16  0  ~/.aliases.sh
+|4,39,16,0,1734183527,"~/.aliases.sh"
+-'  19  0  ~/.aliases.sh
+|4,39,19,0,1734183525,"~/.aliases.sh"
+-'  23  0  ~/.aliases.sh
+|4,39,23,0,1734183525,"~/.aliases.sh"
+-'  26  0  ~/.aliases.sh
+|4,39,26,0,1734183525,"~/.aliases.sh"
+-'  29  0  ~/.aliases.sh
+|4,39,29,0,1734183524,"~/.aliases.sh"
+-'  32  0  ~/.aliases.sh
+|4,39,32,0,1734183524,"~/.aliases.sh"
+-'  35  0  ~/.aliases.sh
+|4,39,35,0,1734183524,"~/.aliases.sh"
+-'  39  0  ~/.aliases.sh
+|4,39,39,0,1734183524,"~/.aliases.sh"
+-'  42  0  ~/.aliases.sh
+|4,39,42,0,1734183523,"~/.aliases.sh"
+-'  45  0  ~/.aliases.sh
+|4,39,45,0,1734183523,"~/.aliases.sh"
+-'  49  0  ~/.aliases.sh
+|4,39,49,0,1734183523,"~/.aliases.sh"
+-'  53  0  ~/.aliases.sh
+|4,39,53,0,1734183523,"~/.aliases.sh"
+-'  56  0  ~/.aliases.sh
+|4,39,56,0,1734183522,"~/.aliases.sh"
+-'  66  0  ~/.aliases.sh
+|4,39,66,0,1734183522,"~/.aliases.sh"
 -'  70  0  ~/.aliases.sh
-|4,39,70,0,1734182530,"~/.aliases.sh"
+|4,39,70,0,1734183522,"~/.aliases.sh"
+-'  75  0  ~/.aliases.sh
+|4,39,75,0,1734183521,"~/.aliases.sh"
+-'  81  0  ~/.aliases.sh
+|4,39,81,0,1734183521,"~/.aliases.sh"
 -'  73  0  ~/.aliases.sh
-|4,39,73,0,1734182530,"~/.aliases.sh"
--'  70  0  ~/.aliases.sh
-|4,39,70,0,1734182530,"~/.aliases.sh"
--'  73  0  ~/.aliases.sh
-|4,39,73,0,1734182530,"~/.aliases.sh"
--'  70  0  ~/.aliases.sh
-|4,39,70,0,1734182530,"~/.aliases.sh"
--'  73  0  ~/.aliases.sh
-|4,39,73,0,1734182530,"~/.aliases.sh"
--'  70  0  ~/.aliases.sh
-|4,39,70,0,1734182530,"~/.aliases.sh"
--'  73  0  ~/.aliases.sh
-|4,39,73,0,1734182530,"~/.aliases.sh"
--'  70  0  ~/.aliases.sh
-|4,39,70,0,1734182530,"~/.aliases.sh"
--'  73  0  ~/.aliases.sh
-|4,39,73,0,1734182530,"~/.aliases.sh"
--'  70  0  ~/.aliases.sh
-|4,39,70,0,1734182530,"~/.aliases.sh"
--'  73  0  ~/.aliases.sh
-|4,39,73,0,1734182530,"~/.aliases.sh"
--'  70  0  ~/.aliases.sh
-|4,39,70,0,1734182530,"~/.aliases.sh"
--'  73  0  ~/.aliases.sh
-|4,39,73,0,1734182530,"~/.aliases.sh"
--'  70  0  ~/.aliases.sh
-|4,39,70,0,1734182530,"~/.aliases.sh"
--'  73  0  ~/.aliases.sh
-|4,39,73,0,1734182530,"~/.aliases.sh"
--'  70  0  ~/.aliases.sh
-|4,39,70,0,1734182530,"~/.aliases.sh"
--'  73  0  ~/.aliases.sh
-|4,39,73,0,1734182530,"~/.aliases.sh"
--'  70  0  ~/.aliases.sh
-|4,39,70,0,1734182530,"~/.aliases.sh"
+|4,39,73,0,1734183520,"~/.aliases.sh"
+-'  48  0  ~/.aliases.sh
+|4,39,48,0,1734183519,"~/.aliases.sh"
+-'  12  0  ~/.aliases.sh
+|4,39,12,0,1734183517,"~/.aliases.sh"
+-'  8  0  ~/.aliases.sh
+|4,39,8,0,1734183517,"~/.aliases.sh"
+-'  3  0  ~/.aliases.sh
+|4,39,3,0,1734183516,"~/.aliases.sh"
+-'  1  0  ~/.aliases.sh
+|4,39,1,0,1734183516,"~/.aliases.sh"
+-'  72  8  ~/.aliases.sh
+|4,39,72,8,1734183508,"~/.aliases.sh"
+-'  86  0  ~/.bashrc
+|4,39,86,0,1734183504,"~/.bashrc"
+-'  86  0  ~/.bashrc
+|4,39,86,0,1734183504,"~/.bashrc"
+-'  95  0  ~/.bashrc
+|4,39,95,0,1734183503,"~/.bashrc"
+-'  95  0  ~/.bashrc
+|4,39,95,0,1734183503,"~/.bashrc"
+-'  105  0  ~/.bashrc
+|4,39,105,0,1734183502,"~/.bashrc"
+-'  116  0  ~/.bashrc
+|4,39,116,0,1734183502,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1734183502,"~/.bashrc"
+-'  126  0  ~/.bashrc
+|4,39,126,0,1734183502,"~/.bashrc"
+-'  132  0  ~/.bashrc
+|4,39,132,0,1734183502,"~/.bashrc"
+-'  138  0  ~/.bashrc
+|4,39,138,0,1734183502,"~/.bashrc"
+-'  105  0  ~/.bashrc
+|4,39,105,0,1734183502,"~/.bashrc"
+-'  116  0  ~/.bashrc
+|4,39,116,0,1734183502,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1734183502,"~/.bashrc"
+-'  126  0  ~/.bashrc
+|4,39,126,0,1734183502,"~/.bashrc"
+-'  132  0  ~/.bashrc
+|4,39,132,0,1734183502,"~/.bashrc"
+-'  138  0  ~/.bashrc
+|4,39,138,0,1734183502,"~/.bashrc"
+-'  141  5  ~/.bashrc
+|4,39,141,5,1734183501,"~/.bashrc"
+-'  141  5  ~/.bashrc
+|4,39,141,5,1734183501,"~/.bashrc"
+-'  23  0  ~/README.md
+|4,39,23,0,1734183498,"~/README.md"
+-'  23  0  ~/README.md
+|4,39,23,0,1734183498,"~/README.md"
+-'  23  0  ~/README.md
+|4,39,23,0,1734183498,"~/README.md"
+-'  23  0  ~/README.md
+|4,39,23,0,1734183498,"~/README.md"
+-'  13  39  ~/README.md
+|4,39,13,39,1734183496,"~/README.md"
+-'  13  39  ~/README.md
+|4,39,13,39,1734183496,"~/README.md"
+-'  13  39  ~/README.md
+|4,39,13,39,1734183496,"~/README.md"
+-'  13  39  ~/README.md
+|4,39,13,39,1734183496,"~/README.md"
+-'  13  39  ~/README.md
+|4,39,13,39,1734183494,"~/README.md"
+-'  13  39  ~/README.md
+|4,39,13,39,1734183494,"~/README.md"
+-'  13  39  ~/README.md
+|4,39,13,39,1734183494,"~/README.md"
+-'  13  39  ~/README.md
+|4,39,13,39,1734183494,"~/README.md"
+-'  15  0  ~/README.md
+|4,39,15,0,1734183486,"~/README.md"
+-'  15  0  ~/README.md
+|4,39,15,0,1734183486,"~/README.md"
+-'  15  0  ~/README.md
+|4,39,15,0,1734183486,"~/README.md"
+-'  15  0  ~/README.md
+|4,39,15,0,1734183486,"~/README.md"
+-'  15  0  ~/README.md
+|4,39,15,0,1734183486,"~/README.md"
+-'  15  0  ~/README.md
+|4,39,15,0,1734183486,"~/README.md"
+-'  15  0  ~/README.md
+|4,39,15,0,1734183486,"~/README.md"
+-'  15  0  ~/README.md
+|4,39,15,0,1734183486,"~/README.md"
+-'  17  0  ~/README.md
+|4,39,17,0,1734183485,"~/README.md"
+-'  19  0  ~/README.md
+|4,39,19,0,1734183485,"~/README.md"
+-'  20  6  ~/README.md
+|4,39,20,6,1734183485,"~/README.md"
+-'  17  0  ~/README.md
+|4,39,17,0,1734183485,"~/README.md"
+-'  19  0  ~/README.md
+|4,39,19,0,1734183485,"~/README.md"
+-'  20  6  ~/README.md
+|4,39,20,6,1734183485,"~/README.md"
+-'  17  0  ~/README.md
+|4,39,17,0,1734183485,"~/README.md"
+-'  19  0  ~/README.md
+|4,39,19,0,1734183485,"~/README.md"
+-'  20  6  ~/README.md
+|4,39,20,6,1734183485,"~/README.md"
+-'  17  0  ~/README.md
+|4,39,17,0,1734183485,"~/README.md"
+-'  19  0  ~/README.md
+|4,39,19,0,1734183485,"~/README.md"
+-'  20  6  ~/README.md
+|4,39,20,6,1734183485,"~/README.md"
+-'  17  0  ~/README.md
+|4,39,17,0,1734183485,"~/README.md"
+-'  19  0  ~/README.md
+|4,39,19,0,1734183485,"~/README.md"
+-'  20  6  ~/README.md
+|4,39,20,6,1734183485,"~/README.md"
+-'  17  0  ~/README.md
+|4,39,17,0,1734183485,"~/README.md"
+-'  19  0  ~/README.md
+|4,39,19,0,1734183485,"~/README.md"
+-'  20  6  ~/README.md
+|4,39,20,6,1734183485,"~/README.md"
+-'  17  0  ~/README.md
+|4,39,17,0,1734183485,"~/README.md"
+-'  19  0  ~/README.md
+|4,39,19,0,1734183485,"~/README.md"
+-'  20  6  ~/README.md
+|4,39,20,6,1734183485,"~/README.md"
+-'  17  0  ~/README.md
+|4,39,17,0,1734183485,"~/README.md"
+-'  19  0  ~/README.md
+|4,39,19,0,1734183485,"~/README.md"
+-'  20  6  ~/README.md
+|4,39,20,6,1734183485,"~/README.md"
+-'  47  1  ~/README.md
+|4,39,47,1,1734182900,"~/README.md"
+-'  47  1  ~/README.md
+|4,39,47,1,1734182900,"~/README.md"
+-'  47  1  ~/README.md
+|4,39,47,1,1734182900,"~/README.md"
+-'  47  1  ~/README.md
+|4,39,47,1,1734182900,"~/README.md"
+-'  47  1  ~/README.md
+|4,39,47,1,1734182900,"~/README.md"
+-'  47  1  ~/README.md
+|4,39,47,1,1734182900,"~/README.md"
+-'  47  1  ~/README.md
+|4,39,47,1,1734182900,"~/README.md"
+-'  47  1  ~/README.md
+|4,39,47,1,1734182900,"~/README.md"
+-'  48  33  ~/README.md
+|4,39,48,33,1734182894,"~/README.md"
+-'  51  32  ~/README.md
+|4,39,51,32,1734182894,"~/README.md"
+-'  48  33  ~/README.md
+|4,39,48,33,1734182894,"~/README.md"
+-'  51  32  ~/README.md
+|4,39,51,32,1734182894,"~/README.md"
+-'  48  33  ~/README.md
+|4,39,48,33,1734182894,"~/README.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/.aliases.sh
+	*	1734183529	0
+	"	18	66
+	^	18	67
+	.	72	8
+	+	71	8
+	+	72	8
+
+> ~/.bashrc
+	*	1734183503	0
+	"	86	0
+
+> ~/README.md
+	*	1734183497	0
+	"	23	0
+	^	13	40
+	.	13	39
+	+	5	0
+	+	4	6
+	+	6	0
+	+	6	68
+	+	7	4
+	+	13	39
 
 > ~/.gitignore
 	*	1734182700	0
@@ -776,21 +804,9 @@ $
 	"	1	0
 	^	1	0
 
-> ~/.aliases.sh
-	*	1734182540	0
-	"	72	8
-	^	72	9
-	.	72	8
-	+	71	8
-	+	72	8
-
 > ~/Personal/projects/.aliases
 	*	1734182508	0
 	"	1	0
-
-> ~/.bashrc
-	*	1734182499	0
-	"	141	5
 
 > ~/Personal/projects/.bashrc
 	*	1734182483	0
@@ -2260,10 +2276,3 @@ $
 	+	482	2
 	+	78	3
 	+	112	2
-
-> ~/Personal/ast.h/.git/COMMIT_EDITMSG
-	*	1733596851	0
-	"	21	26
-	^	21	27
-	.	21	26
-	+	21	26

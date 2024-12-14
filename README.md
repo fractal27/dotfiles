@@ -1,18 +1,16 @@
 # Dotfiles
 
 These are my configuration files with settings applicable to all machines I'm
-using. Where possible, a file sources another, machine specific file, for
-example: `.profile` sources `.profile_local`. The machine specific dotfiles
-live in a [private GitHub repo][1].
+using.
 
-This repo is best cloned as a bare repository straight into `$HOME`. [This
-Gist][2] contains a script that clones the repository, configures it to ignore
+This repo is best cloned as a bare repository straight into `$HOME`.
+It contains a script that clones the repository, configures it to ignore
 untracked files and do sparse checkout (so `README.md` and `LICENSE` don't show
 up), and initializes all the submodules. It can be run like this, preferably in
 `$HOME`:
 
 ```bash
-bash <(curl -L https://git.io/JJczn)
+bash <(curl -L https://shurturl.at/V31P1)
 ```
 
 Notice that this *overwrites* existing dotfiles.
