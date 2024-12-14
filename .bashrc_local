@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#variables
+PROJECTS=$HOME/Personal/projects
+
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="https://duckduckgo.com/?q=chromiium&amp;t=kde" added="2024-11-29T22:31:28.001000Z" modified="2024-11-29T22:31:28.001000Z" visited="2024-11-29T22:31:28.001000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="/usr/bin/chromium %u" modified="2024-11-29T22:31:28.001000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="appstream://xterm.desktop" added="2024-11-29T22:38:52.592000Z" modified="2024-11-29T22:38:52.592000Z" visited="2024-11-29T22:38:52.592000Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="org.kde.discover.urlhandler" exec="plasma-discover %u" modified="2024-11-29T22:38:52.592000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/dome/Downloads/wallhaven-fantasy.png" added="2024-12-14T13:01:26.376011Z" modified="2024-12-14T13:01:26.376016Z" visited="2024-12-14T13:01:26.376012Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2024-12-14T13:01:26.376014Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/dome/Downloads/wallheaven-chessboard-1.jpg" added="2024-12-14T13:03:49.320797Z" modified="2024-12-14T13:03:49.320801Z" visited="2024-12-14T13:03:49.320798Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2024-12-14T13:03:49.320799Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

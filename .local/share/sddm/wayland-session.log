@@ -1,0 +1,8 @@
+/usr/bin/xrdb: Can't open display ''
+/usr/bin/xsetroot:  unable to open display ''
+QPixmap: QGuiApplication must be created before calling defaultDepth().
+QPixmap: QGuiApplication must be created before calling defaultDepth().
+org.kde.startup: "kdeinit5_shutdown" QList() exited with code 255
+startplasma-wayland: Shutting down...
+startplasmacompositor: Shutting down...
+startplasmacompositor: Done.

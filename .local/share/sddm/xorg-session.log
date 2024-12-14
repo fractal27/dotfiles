@@ -1,0 +1,6 @@
+/bin/sh: line 1: dex: command not found
+/bin/sh: line 1: xss-lock: command not found
+/bin/sh: line 1: nm-applet: command not found
+Could not set locale. Please make sure all your LC_* / LANG settings are correct.
+[../i3bar/src/child.c:412] ERROR: stdin: received EOF
+[../i3bar/src/child.c:662] ERROR: Child (pid: 464) unexpectedly exited with status 1

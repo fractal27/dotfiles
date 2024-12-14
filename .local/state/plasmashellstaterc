@@ -1,0 +1,8 @@
+[General]
+SystemInstallDate=2024-11-29
+
+[KickerRunnerManager][History]
+57709a44-d165-4701-acd8-350905d55a85=xterm,chromiium,term,fzf,discover,system
+
+[ShowDonationMessage]
+yearLastSuppressedOrDonated=2024

@@ -1,0 +1,7 @@
+#!/bin/sh
+function setbg(){
+    feh --no-fehbg --bg-scale $@
+}
+
+setbg --randomize $HOME/Pictures/$1
+

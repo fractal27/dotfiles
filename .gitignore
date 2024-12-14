@@ -1,0 +1,10 @@
+#To select ignored files from git 
+
+# For non-good to dotfiles.
+Personal
+.cache
+.vim_info
+gh
+
+
+

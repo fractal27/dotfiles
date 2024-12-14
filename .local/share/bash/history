@@ -1,0 +1,4040 @@
+#1732920913
+mkdir .local/share/bash -p
+#1732920919
+clear
+#1732920952
+mv dotfiles/.config/git .config/git
+#1732920964
+mv dotfiles/.config/mdl .config/mdl
+#1732920973
+mv dotfiles/.config/yamllint .config/yammlint
+#1732920975
+clear
+#1732921021
+cd dotfiles
+#1732921029
+cd ..
+#1732921032
+git diff
+#1732921048
+git diff main
+#1732921091
+mkdir extern
+#1732921093
+cd extern
+#1732921115
+git clone https://github.com/dandvison/delta.git
+#1732921126
+gh auth
+#1732921128
+gh clone
+#1732921131
+gh login
+#1732921135
+gh
+#1732921140
+sudo pacman -S gh
+#1732921146
+sudo pacman -S gh-git
+#1732921173
+sudo pacman -S github-cli
+#1732921188
+gh login
+#1732921191
+gh auth login
+#1732921311
+man locale
+#1732921316
+locale
+#1732921403
+r
+#1732921405
+clear
+#1732921415
+pipx install ranger
+#1732921423
+sudo pacman -S pipx
+#1732921454
+sudo pacman -S ranger-git
+#1732921461
+sudo pacman -S ranger
+#1732921465
+r
+#1732921474
+claer
+#1732921475
+cl√≤ear
+#1732921476
+clear
+#1732921482
+gh auth login
+#1732921520
+claed
+#1732921520
+clear
+#1732921528
+git clone https://github.com/dandvison/delta.git
+#1732921552
+git clone https://github.com/dandavinson/delta.git
+#1732921564
+git clone https://github.com/dandavinson/delta
+#1732921597
+git clone https://github.com/dandavison/delta
+#1732921604
+clear
+#1732921607
+cd delta/
+#1732921614
+make
+#1732921621
+cd ..
+#1732921641
+rm extern -r
+#1732921648
+clear
+#1732921653
+sudo pacman -S git-delta
+#1732921660
+git diff
+#1732921677
+clear
+#1732921683
+git diff main
+#1732921690
+claer
+#1732921691
+clear
+#1732921696
+git diff main
+#1732921740
+cp dotfiles/.local/share/bash-completion/ .local/bash-completion
+#1732921743
+cp -r dotfiles/.local/share/bash-completion/ .local/bash-completion
+#1732921745
+clear
+#1732921748
+git diff main
+#1732921767
+ls .local/share/bash
+#1732921775
+ls .local/share/bash-completion
+#1732921804
+cd .config
+#1732921806
+cd ..
+#1732921815
+cd .local/
+#1732921831
+mv bash-completion/ share/bash-completion
+#1732921833
+cd ..
+#1732921836
+git diff
+#1732921913
+fzf
+#1732921917
+clear
+#1732921923
+cd Personal/
+#1732921933
+clear
+#1732921935
+cd ..
+#1732921939
+vim .gitignore
+#1732921945
+clear
+#1732921952
+cd Personal/
+#1732921987
+git clone https://github.com/amix/vimrc.git
+#1732921997
+clear
+#1732922004
+cd vimrc/
+#1732922019
+cd .-.
+#1732922021
+cd ..
+#1732922029
+cp ../.vimrc .
+#1732922039
+cd vimrc
+#1732922045
+./install_awesome_
+#1732922049
+./install_awesome_vimrc.sh 
+#1732922065
+mkdir ~/.vim_runtime
+#1732922066
+./install_awesome_vimrc.sh 
+#1732922070
+clear
+#1732922070
+vim
+#1732922080
+~/.vim_runtime/
+#1732922083
+vim ~/.vim_runtime/
+#1732922092
+./install_awesome_parameterized.sh 
+#1732922103
+./install_awesome_vimrc.sh 
+#1732922105
+clear
+#1732922107
+cd ..
+#1732922112
+cd .vim
+#1732922114
+cd ..
+#1732922140
+rm .vim_runtime/
+#1732922235
+vim .vimrc
+#1732922267
+clear
+#1732922268
+vim
+#1732922277
+nvim
+#1732922281
+sudo pacman -S nvim
+#1732922286
+sudo pacman -S neovim
+#1732922297
+nvim
+#1732922331
+clear
+#1732922334
+nvim
+#1732922364
+clear
+#1732922375
+nvim .
+#1732922381
+nvim
+#1732922479
+vim .vimrc
+#1732922508
+clear
+#1732922511
+nvim .vimrc
+#1732922521
+claer
+#1732922522
+nvim .vimrc
+#1732922641
+pacman -Sy
+#1732922642
+sudo pacman -Sy
+#1732922647
+clear
+#1732922651
+curl -Lo ~/.vimrc https://j.mp/re-vim
+#1732922739
+vim .vim
+#1732922751
+vim .vim_runtime/
+#1732922769
+clear
+#1732922829
+vim .myprompt.bash 
+#1732922877
+clar
+#1732922879
+git pull
+#1732922882
+clear
+#1732922885
+git diff
+#1732922928
+clear
+#1732922967
+git clone https://github.com/ctrlpvim/ctrlp.vim.git
+#1732922996
+mv ctrlp.vim/ .vim/ctrlp.vim
+#1732923091
+rm .vim/ctrlp.vim/ -r
+#1732923101
+mkdir -p ~/.vim/pack/plugins/start
+#1732923101
+git clone --depth=1 https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/pack/plugins/start/ctrlp
+#1732923104
+clear
+#1732923141
+cd .config
+#1732923197
+tar cvf * ../.config.tar
+#1732923204
+tar cvf ../.config.tar *
+#1732923207
+claer
+#1732923209
+clear
+#1732923211
+cd ..
+#1732923222
+mv .config.tar ..
+#1732923225
+sudo mv .config.tar ..
+#1732923228
+c d..
+#1732923230
+cd ..
+#1732923238
+cd dome
+#1732923245
+rmdir dotfiles/
+#1732923288
+mv Personal/ ../.Personal
+#1732923292
+sudo mv Personal/ ../.Personal
+#1732923301
+rm * -rf
+#1732923302
+clear
+#1732923334
+cp .local ../.local
+#1732925194
+sudo chown dome -R share
+#1732925219
+ls -la
+#1732925243
+sudo chown dome -R share
+#1732925246
+ls -la
+#1732925259
+sudo chown dome -R state
+#1732925266
+cd state
+#1732925269
+la -l
+#1732925276
+cd state
+#1732925283
+l state
+#1732925290
+l -l state
+#1732925294
+l -l state/
+#1732925298
+l -l st*
+#1732925302
+l -l
+#1732925336
+sudo chmod state 755
+#1732925342
+sudo chmod 755 state
+#1732925345
+clear
+#1732925348
+cd ..
+#1732925349
+clear
+#1732925353
+.config
+#1732925355
+cd .config
+#1732925360
+clear
+#1732925362
+vim konsole
+#1732925367
+vim konsolerc 
+#1732925640
+compton
+#1732925645
+sudo pacman -S compton
+#1732925650
+sudo pacman -S i3-compton
+#1732925653
+sudo pacman -S i3wm-compton
+#1732925657
+claer
+#1732925659
+clear
+#1732925662
+l√s
+#1732925674
+cd ..
+#1732925675
+sl
+#1732925689
+vim
+#1732925696
+cd .vim_runtime/
+#1732925698
+cd ..
+#1732925739
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+#1732925742
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+#1732925745
+vim
+#1732925759
+git diff
+#1732925846
+cd .git/HEAD 
+#1732925849
+cat .git/HEAD 
+#1732925853
+cat .git/
+#1732925856
+cat .git/description 
+#1732925865
+claer
+#1732925883
+cd ..
+#1732925902
+cp -r .Personal/ dome/Personal
+#1732925914
+tar xvf.config.tar
+#1732925919
+tar xvf .config.tar .config
+#1732925927
+tar xvf .config.tar --output .config
+#1732925938
+tar xf .config.tar .config
+#1732925970
+tar x --file=.config.tar .config
+#1732925978
+tar x --file=.config.tar
+#1732926006
+sudo tar x --file=.config.tar --dest=config
+#1732926013
+tar --usage
+#1732926099
+mkdir .config
+#1732926106
+sudo mkdir .config
+#1732926113
+sudo tar x --file=.config.tar --directory=config
+#1732926122
+sudo tar x --file=.config.tar --directory=.config
+#1732926129
+cd .config
+#1732926141
+cd. .
+#1732926142
+cd ..
+#1732926144
+cd dome
+#1732926145
+l√≤s
+#1732926148
+clear
+#1732926354
+cd .config
+#1732926369
+cd ..
+#1732926384
+cp -r ../.config/i3 .config/i3
+#1732926389
+clear
+#1732926419
+vim .config/i3/config 
+#1732928260
+claer
+#1732928261
+clear
+#1733497537
+setxkbmap it
+#1733497538
+clear
+#1733497616
+claesdr
+#1733497616
+clear
+#1733497620
+vim
+#1733497625
+nvim
+#1733497627
+clear
+#1733497630
+nvim
+#1733497635
+cd
+#1733497640
+clear
+#1733497645
+cd Personal/
+#1733497645
+sl
+#1733497654
+cd Documents/
+#1733497657
+cd ..
+#1733497658
+ls *
+#1733497665
+cd ..
+#1733497682
+cd Personal/
+#1733497687
+rmdir *
+#1733497691
+cd Desktop/
+#1733497698
+vim .
+#1733497704
+vim .directory 
+#1733497708
+clear
+#1733497710
+cd ..
+#1733497711
+sl
+#1733497712
+clear
+#1733497717
+picom
+#1733497720
+sudo pacman -S picom
+#1733497734
+clear
+#1733497736
+cd Desktop/
+#1733497738
+clear
+#1733497739
+cd ..
+#1733497825
+git clone https://github.com/fractal27/minimallogs.git
+#1733497836
+sudo pacman -S gh
+#1733497840
+sudo pacman -S github-cli
+#1733497843
+gh
+#1733497847
+gh auth
+#1733497850
+gh auth login
+#1733497910
+clear
+#1733497918
+gh auth status
+#1733497923
+gh auth login
+#1733498244
+clear
+#1733498246
+gh
+#1733498275
+gh auth login
+#1733498369
+cd
+#1733498376
+cd .cconifg
+#1733498380
+cd .config/
+#1733498386
+cd gh
+#1733498388
+gh
+#1733498389
+clear
+#1733498396
+vim config.yml 
+#1733498431
+gh auth login
+#1733498495
+clear
+#1733498497
+cd 
+#1733498500
+cd Personal/
+#1733498501
+pr
+#1733498502
+clear
+#1733498503
+l√≤√≤s
+#1733498524
+git clone https://github.com/fractal27/minimallogs
+#1733498607
+git clone https://github.com/fractal27/ast.g
+#1733498610
+git clone https://github.com/fractal27/ast.h
+#1733498613
+cd ast.h/
+#1733498615
+clear
+#1733498617
+mkdir src
+#1733498621
+mkdir include
+#1733498624
+mkdir build
+#1733498627
+cd src
+#1733498636
+clear
+#1733498745
+stb_image_write.h
+#1733498789
+clear
+#1733498853
+clea
+#1733498855
+clear
+#1733498860
+sudo pacman -S clang
+#1733499080
+opr
+#1733499080
+pr
+#1733499081
+clear
+#1733499108
+GIT="https://github.com"
+#1733499132
+github clone $GIT/nothings/stb/
+#1733499134
+github clone $GIT/nothings/stb
+#1733499138
+git clone $GIT/nothings/stb
+#1733499144
+cd stb
+#1733499154
+make
+#1733499156
+clear
+#1733499162
+cd data
+#1733499173
+feh √√√*.png
+#1733499177
+feh
+#1733499183
+fopen
+#1733499202
+sudo pacman -S feh
+#1733499214
+feh √√√*.png
+#1733499221
+fehls
+#1733499228
+feh easy_font_raw.png 
+#1733499242
+cd herringbone/
+#1733499243
+lks
+#1733499251
+vim template_rounds
+#1733499262
+FEH template_round_rooms_diagonal_corridors.png 
+#1733499269
+feh template_round_rooms_diagonal_corridors.png 
+#1733499289
+clear
+#1733499291
+cd ..
+#1733499294
+sl
+#1733499314
+./stb_image_resize_test/
+#1733499318
+cd tests/
+#1733499325
+make
+#1733499342
+make stb.c
+#1733499346
+vim stb.c
+#1733499362
+clear
+#1733499374
+cd c_lexer_test.
+#1733499375
+cd c_lexer_test.c
+#1733499378
+vim c_lexer_test.c
+#1733499399
+cd ..
+#1733499399
+sl
+#1733499411
+cd tests/
+#1733499424
+cc image_test.c
+#1733499429
+cc image_test.c -I ..
+#1733499447
+sudo pacman -S stb
+#1733499452
+cd
+#1733499454
+pr
+#1733499458
+cd ast.h/
+#1733499461
+cd src
+#1733499487
+cd
+#1733499490
+cd .config
+#1733499491
+clear
+#1733499495
+cd 
+#1733499499
+cd .local
+#1733499502
+clear
+#1733499521
+vim shape.c
+#1733499595
+chown dome shape.c 
+#1733499600
+la 
+#1733499602
+l 
+#1733499612
+chmod shape.c 666
+#1733499617
+chmod 666 shape.c
+#1733499620
+vim shape.c 
+#1733499714
+clear
+#1733499715
+cd 
+#1733499717
+cd -
+#1733499719
+cd ..
+#1733499730
+rm include/
+#1733499732
+rmdir include/
+#1733499741
+mkdir thirdparty
+#1733499745
+cd thirdparty/
+#1733499770
+cp ~/Personal/stb/stb_image.h
+#1733499782
+cp ~/Personal/stb/stb_image.h .
+#1733499787
+cp ~/Personal/stb/stb_image_write.h .
+#1733499789
+clear
+#1733499802
+cd ../src
+#1733499806
+vim shape.c
+#1733501176
+cd ..
+#1733501176
+sl
+#1733501181
+cd thirdparty/
+#1733501339
+curl https://raw.githubusercontent.com/tsoding/olive.c/master/olive.c
+#1733501346
+curl https://raw.githubusercontent.com/tsoding/olive.c/master/olive.c> olive.c
+#1733501359
+cd ..
+#1733501360
+cd src
+#1733501367
+mv shape ..
+#1733501373
+mv shape.c ..
+#1733501375
+cd ..
+#1733501376
+rmdir src
+#1733501477
+vim shape.c 
+#1733502087
+cc shape.c -o shape
+#1733502112
+cc shape.c -o shape -Ithirdparty
+#1733502115
+cc shape.c -o shape -I thirdparty
+#1733502129
+vim shape.c 
+#1733502134
+cc shape.c -o shape -I thirdparty
+#1733502139
+vim shape.c 
+#1733502146
+cc shape.c -o shape -I thirdparty
+#1733502206
+vim
+#1733502218
+cc shape.c -o shape -I thirdparty
+#1733502230
+vim
+#1733502257
+cc shape.c -o shape -I thirdparty
+#1733502300
+vim
+#1733502365
+cc shape.c -o shape -I thirdparty
+#1733502368
+vim
+#1733502375
+cc shape.c -o shape -I thirdparty
+#1733502377
+./shape 
+#1733502380
+cc shape.c -o shape -I thirdparty
+#1733502382
+./shape 
+#1733502394
+clang shape.c -o shape
+#1733502396
+./shape 
+#1733502409
+feh poutput.png
+#1733502413
+feh output.png 
+#1733502508
+vim output.png 
+#1733502513
+vim shape.c
+#1733502530
+vim output.png 
+#1733502541
+clang shape.c -o shape
+#1733502545
+./shape 
+#1733502547
+vim output.png 
+#1733502551
+./shape 
+#1733502554
+vim shape.c
+#1733502576
+./shape 
+#1733502578
+vim shape.c
+#1733502626
+clear
+#1733502630
+./shape 
+#1733502640
+vim shape.c 
+#1733502657
+clang shape.c -o shape
+#1733502658
+./shape 
+#1733502621
+feh -b black --keep-zoom-vp
+#1733502703
+feh -B black --keep-zoom-vp
+#1733502710
+feh --help
+#1733502769
+feh -B #00
+#1733502786
+feh -B #00 output.png 
+#1733502795
+feh -B --center output.png 
+#1733502802
+feh -B black --center output.png 
+#1733502807
+feh -BBblack --center output.png 
+#1733502812
+feh -BB --center output.png 
+#1733502818
+feh -BB output.png 
+#1733502821
+feh -BB --center output.png 
+#1733502826
+feh -BB--center output.png 
+#1733502833
+feh -B random output.png 
+#1733502844
+feh -B gray output.png 
+#1733502920
+clear
+#1733502922
+vim shape.c
+#1733502945
+clang shape.c -o shape
+#1733502947
+./shape 
+#1733502953
+vim shape.c
+#1733502958
+./shape 
+#1733502960
+clang shape.c -o shape
+#1733502961
+./shape 
+#1733502968
+vim shape.c
+#1733502976
+clang shape.c -o shape
+#1733502977
+./shape 
+#1733502981
+clang shape.c -o shape
+#1733502983
+./shape 
+#1733502985
+vim shape.c
+#1733502989
+./shape 
+#1733502991
+clang shape.c -o shape
+#1733502993
+./shape 
+#1733503002
+cd
+#1733503012
+vim .vim_runtime/autoload/pathogen.vim 
+#1733503075
+vim .vim_runtime/vimrcs/basic.vim 
+#1733503099
+vim .vim_runtime/vimrcs/extended.vim 
+#1733503126
+cd -
+#1733503132
+vim shape.c
+#1733502905
+feh --keep-zoom-vp
+#1733503334
+feh
+#1733503358
+clear
+#1733503411
+vim shape.c
+#1733503350
+feh output.png 
+#1733503594
+feh output.png --zoom=400%
+#1733503620
+feh output.png --zoom=4
+#1733503626
+feh output.png --zoom=400
+#1733503632
+feh output.png --zoom=599
+#1733503634
+feh output.png --zoom=500
+#1733503637
+feh output.png --zoom=400
+#1733503652
+./shape 
+#1733503661
+vim shape.c
+#1733503640
+feh output.png --zoom=500
+#1733503774
+feh output.png --zoom=600
+#1733503778
+feh output.png --zoom=800
+#1733503781
+feh output.png --zoom=900
+#1733503784
+feh output.png --zoom=1000
+#1733503798
+feh output.png --zoom=1000 --bg-scale
+#1733503819
+feh output.png --zoom=1000 -bg
+#1733503829
+feh --help bg
+#1733503888
+feh output.png --zoom=1000 --bg-fill black
+#1733503892
+feh output.png --zoom=1000 --bg-fill Black
+#1733503897
+feh output.png --zoom=1000 --bg-fill #000
+#1733503905
+feh output.png --zoom=1000 --bg-fill #333
+#1733503913
+feh output.png --zoom=500 --bg-fill #333
+#1733504253
+vim 
+#1733504258
+vim shape
+#1733504260
+.c
+#1733504261
+vim shape.c
+#1733504352
+vim ../.vim_runtime/vimrcs/extended.vim 
+#1733504365
+vim shape.c
+#1733504386
+vim ../.vim_runtime/vimrcs/extended.vim 
+#1733504391
+vim ../.vim_runtime/vimrcs/extended.vim 
+#1733504431
+vim shape.c
+#1733504724
+vim ../.vim_runtime/vimrcs/extended.vim 
+#1733504840
+vim shape.c
+#1733504772
+vim shape.c
+#1733505170
+cd 
+#1733505174
+pr
+#1733505178
+cd ast
+#1733505181
+cd ast.h/
+#1733505186
+./shape 
+#1733505473
+glibc --versoin
+#1733505475
+glibc --version
+#1733505482
+pacman --help
+#1733505489
+pacman -V
+#1733505501
+pacman -T glibc
+#1733505338
+vim shape.c
+#1733503923
+feh output.png --zoom=500
+#1733506017
+vim shape.c
+#1733506572
+sudo pacman -S i3status
+#1733506579
+clear
+#1733506592
+i3-msg ciao
+#1733506599
+i3-msg floating ciao
+#1733506617
+i3-msg gaps
+#1733506620
+clear
+#1733507258
+i3-msg gaps
+#1733507274
+feh output.png --zoom=500 --bg-fill #333
+#1733507278
+feh output.png --zoom=500
+#1733507580
+feh output.png --zoom=500 --bg-fill black
+#1733507589
+feh output.png --zoom=500 --bg-scale
+#1733507604
+while [ 1 ]; then feh output.png --zoom=500 --bg-scale; eonde
+#1733507611
+while [ 1 ]; then feh output.png --zoom=500 --bg-scale
+#1733507634
+while [ 1 ]; do feh output.png --zoom=500 --bg-scale; done
+#1733507806
+while [ 1 ]; do feh output.png --bg-scale; done
+#1733507820
+clear
+#1733507821
+cd
+#1733507824
+pr
+#1733507830
+cd ast.h
+#1733507831
+l√≤s
+#1733506695
+vim shape.c
+#1733509143
+lls
+#1733509144
+cd ..
+#1733509146
+cd stb
+#1733509156
+vim stb_c_lexer.h 
+#1733509215
+vim stb_c_lexer.h
+#1733509223
+clang stb_c_lexer.h
+#1733509237
+./stb_c_lexer
+#1733509242
+chmod 777 ./stb_c_lexer
+#1733509243
+./stb_c_lexer
+#1733509247
+clang stb_c_lexer.h
+#1733509251
+./stb_c_lexer
+#1733509257
+clang stb_c_lexer.h -o stb_c_l√exer
+#1733509259
+./stb_c_lexer
+#1733509266
+vim main.c
+#1733509312
+clang main.c stb_c_lexer.h
+#1733509321
+vim main.c
+#1733509339
+clang main.c stb_c_lexer.h
+#1733509353
+vim stb_c_lexer.h
+#1733509372
+vim main.c
+#1733509381
+vim stb_c_lexer.h
+#1733509386
+clang main.c stb_c_lexer.h
+#1733509393
+vim stb_c_lexer.h
+#1733509567
+vim main.c
+#1733509578
+clang main.c stb_c_lexer.h
+#1733509600
+vim main.c
+#1733509622
+vim stb_c_lexer.c
+#1733509627
+vim stb_c_lexer.h
+#1733509674
+vim stb_c_lexer.c
+#1733509678
+vim main.c 
+#1733509691
+clang main.c stb_c_lexer.h
+#1733509695
+./a.out 
+#1733509702
+clear
+#1733509707
+./a.out 
+#1733509733
+clear
+#1733509740
+vim stb_dxt
+#1733509745
+vim stb_dxt.h 
+#1733509773
+clear
+#1733509778
+rm stb_c_lexer
+#1733509780
+l√s
+#1733509812
+rm stb_c_l$'\303''exer'
+#1733509817
+./a.out 
+#1733509826
+vim stb_c_lexer.h
+#1733509991
+vim stb_connected_components.h 
+#1733510079
+clear
+#1733510086
+vim stb_image.h
+#1733510103
+clear
+#1733511061
+vim stb_sprintf.h 
+#1733511211
+cl√ear
+#1733511212
+cd ..
+#1733511212
+sl
+#1733511217
+cd ast
+#1733511219
+cd ast.h/
+#1733511219
+lks
+#1733511223
+vim shape
+#1733511225
+vim shape.c
+#1733511326
+./shape 
+#1733511331
+vim shape.c
+#1733511373
+cd ..
+#1733511375
+cd ast
+#1733511375
+cd ast.h/
+#1733511385
+vim thirdparty/olive.c 
+#1733511416
+clear
+#1733511416
+lks
+#1733511423
+mkdir textures
+#1733511432
+cd textures/
+#1733511434
+cd ..
+#1733511434
+sl
+#1733511455
+ech $GIT
+#1733511459
+echo $GIT
+#1733511567
+git clone https://github.com/tsoding/olive.c/master
+#1733511573
+git clone https://github.com/tsoding/olive.c
+#1733511578
+cd olive.c
+#1733511595
+cd assets/
+#1733511606
+cd ..
+#1733511616
+cd fonts
+#1733511620
+cd ..
+#1733511620
+sl
+#1733511626
+cd tools
+#1733511631
+cd ..
+#1733511634
+cd wasm
+#1733511650
+./cup3d.wasm
+#1733511651
+clear
+#1733511653
+cd ..
+#1733511668
+gcc nobuild.c -o nobuild
+#1733511671
+./nobuild 
+#1733511682
+wasm
+#1733511689
+sudo pacman -S wasm-ld
+#1733511693
+sudo pacman -S wasm
+#1733511697
+sudo pacman -U wasm
+#1733511706
+sudo pacman -S wasm
+#1733511712
+sudo pacman --sync wasm
+#1733511715
+cd ..
+#1733511717
+sudo pacman -S wasm
+#1733511726
+cd olive.c
+#1733511726
+√≤ls
+#1733511740
+chromium index.html 
+#1733511784
+cd test
+#1733511785
+sl
+#1733511796
+feh fill_triangle_expected.png 
+#1733511803
+feh barycentric_overflow_expected.png 
+#1733511810
+feh triangle_order_flip_expected.png 
+#1733511818
+feh sprite_blend_
+#1733511820
+feh sprite_blend_expected.png 
+#1733511857
+feh circle_example_expected.png 
+#1733511869
+feh hello_world_text_rendering_expected.png 
+#1733511871
+clear
+#1733511872
+cd ..
+#1733511872
+sl
+#1733511883
+cd build/
+#1733511887
+./test
+#1733511890
+./test run
+#1733511895
+cd ..
+#1733511900
+./build/test run
+#1733511914
+cd dev-deps/
+#1733511917
+cd ..
+#1733511919
+cd wasm
+#1733511921
+cd ...
+#1733511923
+cd ..
+#1733511926
+cd tools
+#1733511926
+sl
+#1733511930
+cd ..
+#1733511931
+l√≤s
+#1733511950
+cd demos/
+#1733511956
+gcc triangle-.c
+#1733511960
+gcc triangle3d.c
+#1733511980
+gcc triangle3d.c -I ../
+#1733511995
+vim triangle3d.c
+#1733512013
+cd ..
+#1733512019
+cd dev-deps/
+#1733512020
+√≤s
+#1733512023
+vim sv.h 
+#1733512051
+cd ..
+#1733512075
+gcc demos/triangle3d.c -I .
+#1733512082
+vim demos/vc.c
+#1733512126
+gcc demos/triangle3d.c -I .
+#1733512146
+gcc demos/triangle3d.c -I . -I ../stb
+#1733512152
+gcc demos/triangle3d.c -I . -I ../stb -lm
+#1733512158
+./a.out 
+#1733512186
+vim demos/triangle3d.c
+#1733512615
+clear
+#1733512625
+vim demos/vc.c 
+#1733512639
+gcc demos/triangle3d.c -I . -I ../stb -lm
+#1733512648
+sudo pacman -S sdl
+#1733512653
+gcc demos/triangle3d.c -I . -I ../stb -lm
+#1733512657
+sudo pacman -S SDL
+#1733512737
+vim demos/vc.c 
+#1733512762
+sudo pacman -S wasm-pack
+#1733512767
+gcc demos/triangle3d.c -I . -I ../stb -lm
+#1733512790
+gcc test.c demos/triangle3d.c -I . -I ../stb -lm
+#1733512796
+gcc demos/triangle3d.c -I . -I ../stb -lm
+#1733512801
+vim tetst.c
+#1733512804
+vim test.c
+#1733512818
+clear
+#1733512821
+cd ..
+#1733512821
+sl
+#1733512825
+clear
+#1733512826
+cd ast
+#1733512829
+cd ast.h
+#1733512835
+claer
+#1733507835
+while [ 1 ]; do feh output.png --bg-scale; done
+#1733512843
+clear
+#1733512849
+cd ..
+#1733512858
+mkdir test-olive
+#1733512875
+cp ast.h/shape* test-olive
+#1733512884
+cp ast.h/output.png test-olive
+#1733512912
+cp ast.h/thirdparty/ test-olive/thirdparty
+#1733512918
+mv ast.h/thirdparty/ test-olive/thirdparty
+#1733512922
+cd ast.h
+#1733512922
+lks
+#1733512926
+rm *.png
+#1733512929
+rm shap
+#1733512929
+rm shape
+#1733512932
+rm shape.c
+#1733512939
+rmdir textures/
+#1733512943
+clear
+#1733512954
+vim ast.h
+#1733513280
+cd ..
+#1733513284
+cd ast.h
+#1733513285
+clear
+#1733513364
+cd ..
+#1733513387
+git clone https://github.com/fractal27/lexer
+#1733516363
+cp lexer/src/lexer.h ast.h
+#1733516365
+cp lexer/src/lexer.c ast.h
+#1733516366
+clear
+#1733516367
+cd asyt
+#1733516369
+cd ast.h/
+#1733516371
+clear
+#1733516374
+vim ast.h
+#1733516384
+vim lexer.c
+#1733516415
+cp ../lexer/src/debugging.h .
+#1733516420
+vim ast.h
+#1733516450
+mkdir tests
+#1733516535
+vim ast.h
+#1733516540
+vim lexer.c
+#1733516563
+gcc -E lexer.i
+#1733516575
+lexer lexer.c -E lexer.i
+#1733516579
+gcc lexer.c -E lexer.i
+#1733516586
+gcc lexer.c -E > lexer.i
+#1733516590
+vim lexer.i
+#1733516840
+gcc lexer.i
+#1733516844
+rm lexer.i
+#1733516868
+clear
+#1733516870
+vim ast.h
+#1733516887
+vim lexer.h
+#1733517165
+cd ..
+#1733517170
+cd stb
+#1733517182
+vim stb_image.h
+#1733517459
+rm main.c a.out
+#1733517470
+vim stb_include.h
+#1733517534
+cd ..
+#1733517538
+cd ast.h
+#1733517539
+sl
+#1733517546
+rm lexer.c
+#1733517549
+vim lexer.h
+#1733519411
+vim ast.h 
+#1733519428
+cd ..
+#1733519431
+cd stb/
+#1733519441
+vim stb_image_write.h 
+#1733519475
+clear
+#1733519476
+cd ..
+#1733519479
+cd ast.h
+#1733519483
+vim ast.h 
+#1733520654
+cdtests
+#1733520656
+cd tests
+#1733520678
+cp ../../lexer/src/tests/test_lexer.c .
+#1733520685
+vim test_lexer.c 
+#1733520995
+gcc -lgtest test_lexer.c -o test
+#1733521005
+g++ -lgtest test_lexer.c -o test
+#1733521018
+vim test_lexer.c 
+#1733521192
+g++ -lgtest test_lexer.c -o test
+#1733521203
+vim test_lexer.c 
+#1733521233
+vim ../√lexer.h
+#1733521238
+cd ..
+#1733521241
+vim lexer.h 
+#1733521551
+cd tests/
+#1733521553
+g++ -lgtest test_lexer.c -o test
+#1733521575
+vim test_lexer.c 
+#1733521589
+g++ -lgtest test_lexer.c -o test
+#1733521662
+vim test_lexer.c 
+#1733521692
+g++ -lgtest test_lexer.c -o test -fpermissive
+#1733521800
+clear
+#1733521804
+rm test_lexer.c 
+#1733521807
+cd ..
+#1733521830
+cp lexer/src/tests/test_lexer.c ast.h/tests/
+#1733521835
+cd ast.h/tests/
+#1733521841
+vim test_lexer.c 
+#1733521858
+gcc -lm -lcriterion test_lexer.c -o test 
+#1733521868
+sudo pacman -S criterion
+#1733521873
+gcc -lm -lcriterion test_lexer.c -o test 
+#1733521891
+vim test_lexer.c 
+#1733521918
+gcc -lm -lcriterion test_lexer.c -o test 
+#1733521925
+gcc -lm -lcriterion test_lexer.c -o test -I ..
+#1733521941
+vim ../lexer +:342
+#1733521945
+vim ../lexer.h +:342
+#1733522001
+gcc -lm -lcriterion test_lexer.c -o test -I ..
+#1733522005
+./test 
+#1733522016
+cd ..
+#1733522028
+vimdiff lexer.h ../lexer/src/lexer.c
+#1733526594
+clear
+#1733526597
+vim lexer.h 
+#1733526604
+git add .
+#1733526615
+git rm tests/
+#1733526617
+git rm tests/ -r
+#1733526629
+git rm tests/ -rf
+#1733526635
+git diff
+#1733526647
+git commit -m "modified some files"
+#1733526649
+git push
+#1733526657
+cd test
+#1733526668
+vim cd test
+#1733526680
+clear
+#1733526682
+mkdir tests
+#1733526686
+cd tests/
+#1733526689
+touch test.c
+#1733526690
+A
+#1733526692
+vim test.c
+#1733526711
+cp ../../lexer/src/tests/test_lexer.c  .
+#1733526718
+vim test_lexer.c
+#1733526747
+clang -I .. -lm -lcriterion test_lexer.c
+#1733526765
+clang -lm test_lexer.c -lcriterion √-I ..
+#1733526770
+clang -lm test_lexer.c -lcriterion 
+#1733526787
+vim test_lexer.c 
+#1733526811
+clang -lm test_lexer.c -lcriterion 
+#1733526814
+./a.out 
+#1733526823
+./a.out  --verbose
+#1733526840
+vim test_lexer.c 
+#1733526938
+clang -lm test_lexer.c -lcriterion 
+#1733526958
+vim test_lexer.c 
+#1733526994
+clang -lm test_lexer.c -lcriterion 
+#1733526996
+vim test_lexer.c 
+#1733526999
+./a.out 
+#1733527008
+./a.out --verbose
+#1733527017
+cd ..
+#1733527019
+vim debugging.h 
+#1733527028
+cd tests/
+#1733527030
+clang -lm test_lexer.c -lcriterion 
+#1733527036
+./a.out --verbose
+#1733527054
+cd ..
+#1733527059
+vim lexer.h 
+#1733527096
+cd test
+#1733527097
+cd tests/
+#1733527099
+clang -lm test_lexer.c -lcriterion 
+#1733527102
+./a.out --verbose
+#1733527153
+vim ../lexer.h 
+#1733527212
+clang -lm test_lexer.c -lcriterion 
+#1733527213
+./a.out --verbose
+#1733527219
+cd ..
+#1733527222
+vim debugging.h 
+#1733527227
+wq
+#1733527229
+cd tests/
+#1733527233
+clang -lm test_lexer.c -lcriterion 
+#1733527237
+./a.out 
+#1733527239
+clear
+#1733527249
+./a.out --verbose
+#1733527256
+./a.out --verbose=2
+#1733527257
+./a.out --verbose=1
+#1733527259
+cler
+#1733527260
+clear
+#1733527261
+l√≤a
+#1733527266
+vim test.c
+#1733527270
+rm test.c
+#1733527275
+rm a.out
+#1733527276
+√ls
+#1733527284
+vim Makefile
+#1733528163
+make
+#1733528169
+make lexer.test.c
+#1733528178
+vim Makefile 
+#1733528230
+make lexer.test.c
+#1733528234
+make lexer
+#1733528235
+clear
+#1733528237
+make lexer
+#1733528261
+mv test_lexer.c lexer.test.c
+#1733528262
+make lexer
+#1733528266
+clear
+#1733528267
+cd ..
+#1733528275
+touch Makefile
+#1733528275
+A
+#1733528277
+vim Makefile 
+#1733528591
+cd tests
+#1733528591
+las
+#1733528597
+vim ast.test.c
+#1733528648
+vim Makefile 
+#1733528656
+vim testall.c
+#1733528664
+vim Makefile 
+#1733528703
+make
+#1733528713
+cd ..
+#1733528718
+vim Makefile 
+#1733528721
+make test
+#1733528723
+vim Makefile 
+#1733528726
+make test
+#1733528729
+vim Makefile 
+#1733528750
+make test
+#1733528780
+cd tests/
+#1733528782
+cd ..
+#1733528785
+vim Makefile 
+#1733528810
+cd ..
+#1733528813
+cd ast.h/
+#1733528814
+make
+#1733528816
+make test
+#1733528823
+cd tests/
+#1733528828
+make test
+#1733528830
+make clean
+#1733528831
+cd ..
+#1733528834
+make test
+#1733528837
+cd tests
+#1733528838
+make
+#1733528843
+make test
+#1733528846
+make
+#1733528853
+maek ../build/testRunner 
+#1733528888
+vim Makefile 
+#1733528915
+mmake clean
+#1733528917
+make clean
+#1733528920
+make
+#1733528922
+make clean
+#1733528923
+cd ..
+#1733528926
+make test
+#1733528941
+cd build/
+#1733528942
+cd ..
+#1733528950
+vim .gitignore 
+#1733529000
+uname
+#1733529004
+uname --help
+#1733529007
+uname -s
+#1733529009
+uname -n
+#1733529012
+uname -r
+#1733529013
+uname -v
+#1733529017
+uname -i
+#1733529020
+uname -p
+#1733529024
+uname -o
+#1733529032
+uname -m
+#1733529036
+clear
+#1733529040
+cd tests/
+#1733529042
+vim Makefile 
+#1733529078
+clear
+#1733529079
+cd ..
+#1733529082
+make test
+#1733529091
+make test clean
+#1733529108
+vim ast.h
+#1733529233
+cd tests/
+#1733529236
+vim ast.test.c
+#1733529279
+cd ..
+#1733529292
+vim ast.h 
+#1733529321
+clang ast.h
+#1733529327
+vim ast.h
+#1733529486
+vim lexer.h
+#1733529500
+vim ast.h
+#1733529908
+make test
+#1733529913
+vim ast.h
+#1733530095
+cd ..
+#1733530097
+cd ast.h/
+#1733530109
+curl https://raw.githubusercontent.com/attractivechaos/klib/refs/heads/master/khash.h > thirdparty/khash.h
+#1733530114
+mkdir thirdparty
+#1733530115
+curl https://raw.githubusercontent.com/attractivechaos/klib/refs/heads/master/khash.h > thirdparty/khash.h
+#1733530120
+cd thirdparty/
+#1733530122
+vim khash.h 
+#1733530126
+cd ..
+#1733530129
+vim ast.h
+#1733530197
+vim thirdparty/khash.h 
+#1733530887
+vim ast.h
+#1733586462
+clear
+#1733586531
+cd Personal/ast.h/
+#1733586533
+vim ast.h
+#1733586747
+setkbmap it
+#1733586750
+setxkbmap it
+#1733586751
+clear
+#1733586771
+vim ast.h 
+#1733589700
+clear
+#1733589706
+make test
+#1733589710
+cd tests/
+#1733589712
+make
+#1733589713
+make test
+#1733589718
+make clean
+#1733589719
+make test
+#1733589722
+make
+#1733589745
+cd ..
+#1733589751
+clang ast.h 
+#1733589761
+cat ast.h.pch 
+#1733589765
+rm ast.h.pch 
+#1733589840
+cd thirdparty/
+#1733589843
+cd .
+#1733589844
+cd ..
+#1733589847
+cd tests/
+#1733589875
+clang ast.test.c ../ast.h -o test -lcriterion
+#1733589881
+clang ast.test.c -o test -lcriterion
+#1733589883
+./test
+#1733589890
+vim ast.test.c
+#1733589895
+clear
+#1733596620
+./test 
+#1733596622
+rm test
+#1733596624
+cd ..
+#1733596631
+cd tests/Makefile 
+#1733596634
+vim tests/Makefile 
+#1733596646
+claer
+#1733596647
+clear
+#1733596649
+cd. .
+#1733596650
+cd ..
+#1733596656
+cd ast
+#1733596659
+cd ast.h/
+#1733596686
+ls thirdparty/
+#1733596696
+git add debugging.h 
+#1733596701
+git add lexer.h 
+#1733596709
+git add ast.h
+#1733596718
+git add tests
+#1733596731
+git add tests/*
+#1733596739
+vim .gitignore
+#1733596744
+lks
+#1733596745
+√πls
+#1733596752
+git add tests
+#1733596765
+git add Makefile 
+#1733596781
+git commit
+#1733596860
+git push
+#1733655868
+s
+#1733655908
+setxkbmap it -v dvorak
+#1733655934
+√†√†,.pyfgcgcfyfgc√†,.pgy√†,cg.fpylrclrcgcdaoethudnthd√≤qjkmwbx
+#1733656063
+clcear
+#1733656066
+clear
+#1733656072
+sl
+#1733656075
+√®ls
+#1733663056
+cd acqua
+#1733663727
+and?
+#1733666330
+cd √Pers√
+#1733666351
+cd  √P
+#1733666359
+cd
+#1733666373
+cd Personal/
+#1733666375
+ln
+#1733666378
+√ls√π
+#1733666414
+cd ast.h/
+#1733666431
+cd j
+#1733666464
+cd √lth
+#1733666518
+cd thirr√
+#1733666521
+cd thirdparty/
+#1733666589
+cd ..
+#1733666597
+aoentuhdoaentuhdaotnehudaoetnhudaoetnhudaoetnuhdoaeth
+#1733666649
+cian√iuro
+#1733666667
+n
+#1733666673
+j
+#1733666675
+√≤√≤qjtnb
+#1733666678
+aojbbaonj
+#1733666680
+abb
+#1733666682
+aojnt
+#1733666684
+oj
+#1733666686
+a
+#1733666687
+ojbba
+#1733666692
+ab.yd
+#1733666694
+aonntjbamb√≤
+#1733666696
+√≤q
+#1733666700
+√k
+#1733666701
+x
+#1733666703
+q
+#1733666703
+j
+#1733666704
+k
+#1733666705
+x
+#1733666708
+√≤k
+#1733666709
+k
+#1733666711
+kk
+#1733666716
+√≤
+#1733666720
+√√≤
+#1733666722
+q
+#1733666743
+e√xih
+#1733667025
+extit
+#1733667040
+exih
+#1733667050
+extit
+#1733667078
+clear
+#1733667598
+no
+#1733667639
+vim
+#1733667868
+cd /h√tmp
+#1733667880
+cd /tmp
+#1733667959
+cd (ktemp √-d)
+#1733667966
+cd (mtemp √-d)
+#1733668009
+cd (mktemp √√-d)
+#1733668012
+cd (m$ktemp √√-d)
+#1733668022
+cd (m$$mp √√-d)
+#1733668026
+√π
+#1733668027
+jn.ap
+#1733668031
+cd
+#1733668062
+cd $(mktemp -d)
+#1733668064
+no
+#1733668109
+touc√√h
+#1733668181
+echo  "\303"
+#1733668184
+echo "\303"
+#1733668187
+echo "\g303"
+#1733668188
+echo "\303"
+#1733668192
+echo "\r303"
+#1733668195
+echo "\o303"
+#1733668210
+echo "100303"
+#1733668213
+.qcy
+#1733668218
+√q
+#1733668220
+q
+#1733668224
+qq
+#1733668225
+q
+#1733668227
+aq
+#1733668230
+aqg√a
+#1733668243
+acqua 
+#1733672012
+clear
+#1733672030
+tlear
+#1733672034
+clear
+#1733672042
+√
+#1733672073
+echo '\303'
+#1733672075
+echo '\300'
+#1733672077
+echo '\30'
+#1733672078
+echo '\32'
+#1733672081
+echo '\r32'
+#1733672083
+echo '\o32'
+#1733672086
+echo '\q32'
+#1733672090
+echo '\√x32'
+#1733672093
+echo '\√xuu'
+#1733672118
+echo '√ \xee
+
+\
+\
+
+
+
+#1733672128
+jn.ap
+#1733672136
+clear
+#1733672143
+r
+#1733672227
+p
+#1733672229
+r
+#1733672276
+jn.ap
+#1733672284
+clear
+#1733673648
+cd ast.h/
+#1733673708
+l √®--sort=t√ime
+#1733673717
+√l
+#1733673900
+setxkbmap √it -v √qwer√ty
+#1733674223
+exih
+#1733674281
+setkbmap it
+#1733674285
+setxkbmap it
+#1733674286
+clear
+#1733674293
+asclear
+#1733674295
+clear
+#1733674380
+distruggere
+#1733674381
+clear
+#1733674391
+cd Personal/ast.h/
+#1733674393
+clear
+#1733674401
+vim ast.h
+#1733675832
+vim lexer.h 
+#1733680882
+size .git
+#1733680886
+lsall .git
+#1733680892
+du .git -s
+#1733680895
+du .git -sH
+#1733680896
+du .git -sh
+#1733680899
+clear
+#1733680918
+du *.h tests/ thirdparty/
+#1733680921
+du *.h tests/ thirdparty/ -h
+#1733680922
+du *.h tests/ thirdparty/ -hs
+#1733695826
+make test
+#1733695834
+vim ast.h
+#1733764823
+clear
+#1733764830
+setxkbmap it
+#1733764831
+clear
+#1733764841
+vim /etc/X11
+#1733767624
+clear
+#1733767626
+xinit
+#1733767651
+clear
+#1733767654
+vim .bashrc
+#1733767663
+vim .fehbg 
+#1733767756
+. .fehbg
+#1733767761
+ls .wall
+#1733767767
+la Personal/
+#1733767779
+cd Pictures/
+#1733767878
+cp ../Personal/olive.c/test/bilinear_interpolation_expected.png .
+#1733767886
+cd ..
+#1733767889
+vim .fehbg 
+#1733767940
+cd pi
+#1733767943
+cd Pictures/
+#1733767947
+cd ..
+#1733767950
+. .fehbg 
+#1733767965
+bg 
+#1733767984
+vim .fehbg 
+#1733767995
+. .fehbg 
+#1733768051
+setbg --random $HOME/Personal/olive.c/test/
+#1733768068
+while [ 1 ];do setbg --random $HOME/Personal/olive.c/test/; done
+#1733768124
+bgset $HOME/Personal/test-olive/output.png 
+#1733768130
+setbg $HOME/Personal/test-olive/output.png 
+#1733768144
+cd $HOME/Personal/test-olive/
+#1733768145
+l√≤s
+#1733768148
+clear
+#1733768153
+cd shape.c
+#1733768175
+feh output.png 
+#1733768155
+vim shape.c
+#1733768312
+feh output.png 
+#1733768405
+vim shape.c
+#1733768519
+feh output.png 
+#1733768523
+vim shape.c
+#1733768811
+clang shape.c -o shape
+#1733768827
+gcc shape.c -o shape
+#1733768835
+./shape 
+#1733768844
+vim shape.c
+#1733768870
+./shape 
+#1733768872
+gcc shape.c -o shape
+#1733768874
+./shape 
+#1733768879
+vim shape.c
+#1733768915
+./shape 
+#1733768921
+vim shape.c
+#1733768929
+./shape 
+#1733768932
+vim shape.c
+#1733769078
+./shape 
+#1733769080
+vim shape.c
+#1733769292
+clear
+#1733769498
+cd ..
+#1733769498
+sl
+#1733769505
+mkdir rusttest
+#1733769508
+rust
+#1733769515
+sudo pacman -S cargo
+#1733769532
+cargo
+#1733769553
+cd rusttest/
+#1733769556
+cargo init
+#1733769560
+cd src
+#1733769563
+vim main.rs 
+#1733769680
+cd ..
+#1733769683
+cargo bu
+#1733769685
+cargo build
+#1733769697
+vim src/main.rs 
+#1733769700
+cargo build
+#1733769707
+vim src/main.rs 
+#1733769724
+cargo build
+#1733769728
+vim src/main.rs 
+#1733769735
+cargo build
+#1733769740
+vim src/main.rs 
+#1733769747
+cargo build
+#1733769754
+vim src/main.rs 
+#1733769764
+cargo build
+#1733769769
+vim src/main.rs 
+#1733769775
+cargo build
+#1733769782
+rustc 
+#1733769790
+rustc target/
+#1733769792
+rustc
+#1733769811
+cargo build
+#1733769813
+lks
+#1733769817
+cd target/
+#1733769820
+cd debug/
+#1733769823
+./rusttest 
+#1733769825
+cd ..
+#1733769826
+sl
+#1733769829
+cd src
+#1733769873
+./rusttest 
+#1733769877
+vim main.rs 
+#1733769899
+vim tests.rs
+#1733769974
+vim main.rs 
+#1733770175
+vim functionality.rs 
+#1733770178
+cd tests.rs 
+#1733770182
+vim tests.rs 
+#1733770226
+vim main.rs 
+#1733770289
+clear
+#1733770290
+cd ..
+#1733770294
+rust build test
+#1733770302
+cargo --help
+#1733770307
+cargo check
+#1733770332
+vim src/tests.rs 
+#1733770335
+cargo check
+#1733770346
+vim src/functionality.rs 
+#1733770352
+cargo check
+#1733770364
+vim src/main.rs 
+#1733770394
+cargo check
+#1733770397
+vim src/main.rs 
+#1733770402
+cargo check
+#1733770420
+vim src/main.rs 
+#1733770431
+cargo check
+#1733770437
+vim src/tests.rs 
+#1733770443
+cargo check
+#1733770447
+cargo bu
+#1733770448
+cargo build
+#1733770452
+cargo test
+#1733770462
+vim src/tests.rs 
+#1733770529
+cargo build
+#1733770529
+vim src/tests.rs 
+#1733770532
+cargo test
+#1733770542
+vim src/tests.rs 
+#1733770548
+cargo test
+#1733770551
+vim src/tests.rs 
+#1733770563
+cargo test
+#1733770565
+vim src/tests.rs 
+#1733770572
+cargo test
+#1733770575
+vim src/tests.rs 
+#1733770576
+cargo test
+#1733770586
+vim src/main.rs 
+#1733770599
+vim src/functionality.rs 
+#1733771145
+clear
+#1733771149
+vim src/tests.rs 
+#1733771232
+cargo test
+#1733771236
+cargo check
+#1733771272
+vim src/functionality.rs 
+#1733771292
+cargo check
+#1733771304
+vim src/functionality.rs 
+#1733771323
+cargo check
+#1733771336
+vim src/functionality.rs 
+#1733771351
+cargo check
+#1733771364
+vim src/functionality.rs 
+#1733771379
+cargo check
+#1733771385
+vim src/functionality.rs 
+#1733771394
+cargo check
+#1733771398
+vim src/functionality.rs 
+#1733771405
+cargo check
+#1733771413
+vim main.rs
+#1733771416
+vim src/main.rs 
+#1733771445
+vim main.rs
+#1733771450
+cargo check
+#1733771456
+vim main.rs
+#1733771461
+vim src/functionality.rs 
+#1733771477
+vim main.rs
+#1733771484
+cargo chck
+#1733771485
+cargo check
+#1733771490
+vim main.rs
+#1733771493
+vim src/main.rs
+#1733771506
+cargo check
+#1733771512
+vim src/main.rs
+#1733771517
+cargo check
+#1733771541
+vim fun
+#1733771544
+vim src/functionality.rs 
+#1733771551
+vim src/tests.rs 
+#1733771555
+vim src/functionality.rs 
+#1733771563
+cargo tests
+#1733771565
+cargo test
+#1733771583
+vim src/main.rs
+#1733771588
+cargo test
+#1733771597
+vim src/main.rs
+#1733771599
+cargo test
+#1733771645
+vim src/tests.rs 
+#1733771657
+vim src/functionality.rs 
+#1733771674
+vim src/tests.rs 
+#1733771683
+cargo check
+#1733771739
+vim src/functionality.rs 
+#1733771803
+cargo check
+#1733771807
+vim src/functionality.rs 
+#1733771814
+cargo check
+#1733771830
+vim src/tests.rs 
+#1733771849
+cargo check
+#1733771869
+vim src/functionality.rs 
+#1733771886
+cargo check
+#1733771894
+vim src/functionality.rs 
+#1733771900
+cargo check
+#1733771906
+vim src/functionality.rs 
+#1733771919
+vim src/tests.rs 
+#1733771929
+cargo check
+#1733771935
+cargo tes
+#1733771936
+cargo test
+#1733771960
+vim src/tests.rs 
+#1733771969
+cargo test
+#1733771971
+vim src/tests.rs 
+#1733771979
+cargo test
+#1733771992
+vim src/tests.rs 
+#1733771998
+cargo test
+#1733772015
+vim src/functionality.rs 
+#1733772091
+cargo test
+#1733772093
+vim src/functionality.rs 
+#1733772104
+cargo test
+#1733772108
+cargo buidld
+#1733772113
+cargo build
+#1733772119
+vim src/functionality.rs 
+#1733772125
+cargo build
+#1733772160
+cargo test
+#1733772170
+vim src/tests.rs 
+#1733772212
+cargo test
+#1733772220
+vim src/tests.rs 
+#1733772228
+cargo test
+#1733772244
+vim src/functionality.rs 
+#1733772250
+cargo test
+#1733772256
+clear
+#1733772257
+cd ..
+#1733772258
+clear
+#1733819935
+setxkbmap it
+#1733819935
+clear
+#1733819938
+cd Personal/
+#1733819947
+mkdir test-zig
+#1733819950
+cd test-
+#1733819951
+cd test-zig/
+#1733819953
+clear
+#1733819959
+zig
+#1733819967
+sudo pacman -S zig
+#1733820074
+zig
+#1733820092
+zig init
+#1733820098
+vim src/main.zig 
+#1733820108
+zig build run
+#1733820121
+zig run
+#1733820125
+zig run main
+#1733820136
+zig build
+#1733820139
+zig run
+#1733820141
+zig run all
+#1733820153
+cd zig-out/
+#1733820157
+cd bin/
+#1733820160
+./test-zig 
+#1733820163
+cd ..
+#1733820165
+c d..
+#1733820166
+cd ..
+#1733820171
+vim src/main.zig 
+#1733821263
+zig biuld
+#1733821267
+zig build
+#1733821272
+zig std
+#1733821386
+zig build
+#1733821400
+bim src/main.zig 
+#1733821403
+vim src/main.zig 
+#1733821426
+zig build
+#1733821480
+vim src/main.zig √
+#1733821492
+zig build
+#1733821495
+vim src/main.zig √
+#1733821512
+zig build
+#1733821518
+vim src/main.zig 
+#1733821545
+zig build
+#1733821547
+vim src/main.zig 
+#1733821550
+zig build
+#1733821558
+vim src/main.zig 
+#1733821685
+zig build
+#1733821688
+vim src/main.zig 
+#1733821690
+zig build
+#1733821692
+vim src/main.zig 
+#1733821698
+zig build
+#1733821700
+vim src/main.zig 
+#1733821702
+zig build
+#1733821707
+vim src/main.zig 
+#1733821715
+zig build
+#1733821716
+vim src/main.zig 
+#1733821741
+zig build
+#1733821748
+vim src/main.zig 
+#1733821793
+zig build
+#1733821799
+vim src/main.zig 
+#1733821805
+zig build
+#1733821808
+vim src/main.zig 
+#1733821818
+zig build
+#1733821825
+vim src/main.zig 
+#1733821835
+zig build
+#1733821860
+vim src/main.zig 
+#1733821897
+zig build
+#1733821900
+vim src/main.zig 
+#1733821904
+zig build
+#1733821909
+vim src/main.zig 
+#1733822028
+zig build
+#1733822045
+vim src/main.zig 
+#1733822053
+zig build
+#1733822056
+vim src/main.zig 
+#1733822073
+zig build
+#1733822078
+vim src/main.zig 
+#1733822103
+zig build
+#1733822108
+vim src/main.zig 
+#1733822113
+zig build
+#1733822116
+vim src/main.zig 
+#1733822120
+zig build
+#1733822121
+vim src/main.zig 
+#1733822124
+zig build
+#1733822125
+vim src/main.zig 
+#1733822147
+zig build
+#1733822291
+vim src/main.zig 
+#1733822312
+zig build
+#1733822316
+zig run
+#1733822319
+zig run 1
+#1733822324
+zig run *
+#1733822332
+zig help run
+#1733822347
+./zig-out/bin/test-zig 
+#1733822353
+zig build test
+#1733822356
+√≤s
+#1733822359
+vim src/main.zig 
+#1733822531
+nvim src/main.zig 
+#1733823102
+zig fetch --save git+https://github.com/prajwalch/yazap
+#1733823116
+vim src/main.zig 
+#1733823617
+zig build
+#1733823626
+vim src/main.zig 
+#1733823694
+zig build
+#1733823697
+vim src/main.zig 
+#1733823703
+vim build.zig
+#1733823740
+vim src/main.zig 
+#1733823743
+zig build.zig
+#1733823745
+zig build
+#1733823748
+clear
+#1733823749
+zig build.zig
+#1733823751
+zig build
+#1733823759
+vim build.zig
+#1733823773
+zig build
+#1733823775
+vim build.zig
+#1733823863
+zig build
+#1733823867
+vim build.zig
+#1733823885
+zig build
+#1733823979
+cd src
+#1733823979
+sl
+#1733823981
+cd ..
+#1733823987
+vim build.zig.zon 
+#1733824021
+cd ..
+#1733824024
+cd test-
+#1733824026
+cd test-zig/
+#1733824033
+rm build.zig.zon 
+#1733824040
+zig build.zig 
+#1733824042
+zig build
+#1733824050
+vim build.zig 
+#1733824059
+zig build
+#1733824083
+nvim src/main.zig 
+#1733824312
+sl
+#1733824313
+cd ..
+#1733824334
+ls /src/
+#1733824363
+ls /usr/lib32/libstdc++.a 
+#1733824370
+xxd /usr/lib32/libstdc++.a 
+#1733824375
+xxd /usr/lib32/libstdc++.a  | less
+#1733824384
+sudo pacman - Sless
+#1733824390
+sudo pacman -S less
+#1733824400
+xxd /usr/lib32/libstdc++.a  | less
+#1733824436
+lss
+#1733824442
+cd .local/
+#1733824446
+cd share/
+#1733824477
+mkdir zig-all
+#1733824481
+cd zig-all
+#1733824510
+git clone https://github.com/prajwalch/yazap
+#1733824520
+cd yazap/
+#1733824523
+cd src
+#1733824526
+pwd
+#1733824532
+catpwd 
+#1733824533
+cat pwd 
+#1733824559
+echo $(pwd)/lib.zig
+#1733824568
+ZIGLIB=$(pwd)/lib.zig
+#1733824571
+clear
+#1733824572
+cd
+#1733824573
+cd pr
+#1733824574
+pr
+#1733824579
+cd test-
+#1733824580
+cd test-zig/
+#1733824581
+sls
+#1733824586
+vim build.zig 
+#1733824702
+sls
+#1733824706
+zig build.zig 
+#1733824707
+zig build
+#1733824765
+zig fetch --save git+https://github.com/prajwalch/yazap
+#1733824781
+git run
+#1733824786
+git run .
+#1733824793
+zig build.zig
+#1733824795
+zig build
+#1733824816
+vim src/main.zig 
+#1733825139
+zig build
+#1733825145
+vim src/main.zig +:38
+#1733825157
+zig build
+#1733825165
+vim src/main.zig +:50
+#1733825168
+zig build
+#1733825176
+vim src/main.zig +:50
+#1733825402
+zig build
+#1733825407
+vim src/main.zig +:50
+#1733825411
+zig build
+#1733825420
+vim src/main.zig +:50
+#1733825425
+zig build
+#1733825430
+vim src/main.zig 
+#1733825496
+zig build
+#1733825499
+vim src/main.zig 
+#1733825506
+zig build
+#1733825673
+vim src/main.zig 
+#1733825792
+zig build
+#1733825794
+vim src/main.zig 
+#1733825816
+zig build
+#1733825820
+vim src/main.zig 
+#1733825844
+zig build
+#1733825852
+vim src/main.zig 
+#1733825866
+zig build
+#1733825934
+vim src/main.zig 
+#1733825941
+zig build
+#1733825948
+vim src/main.zig 
+#1733825957
+zig build
+#1733826131
+vim src/main.zig 
+#1733826156
+zig build
+#1733826163
+vim src/main.zig 
+#1733826170
+zig build
+#1733826172
+vim src/main.zig 
+#1733827118
+zig build
+#1733827126
+vim src/main.zig 
+#1733827131
+zig build
+#1733827144
+vim src/main.zig 
+#1733827159
+zig build
+#1733827168
+vim src/main.zig 
+#1733827197
+zig build
+#1733827204
+vim src/main.zig 
+#1733827215
+zig build
+#1733827228
+vim src/maiu
+#1733827232
+vim src/main.zig 
+#1733832631
+clear
+#1733832633
+zig buidld
+#1733832637
+zig buid
+#1733832639
+zig build
+#1733832645
+cd ..
+#1733832647
+clear
+#1733832664
+cd ast.h/
+#1733832665
+l.s
+#1733832667
+vim ast.h 
+#1733835958
+clear
+#1733835960
+vim ast.h 
+#1733838851
+clear
+#1733838852
+cd ..
+#1733838854
+clear
+#1733861455
+lcl;ear
+#1733861456
+clear
+#1733861457
+fish
+#1733861462
+sudo pacman /S fish
+#1733861468
+sudo pacman -S fish
+#1733861477
+setxkbmap it
+#1733861478
+clear
+#1733861503
+vim /√√√*/X11
+#1733861511
+√ls /*/X11
+#1733861515
+clear
+#1733861530
+fish
+#1733923592
+clear
+#1733923596
+cd Personal/
+#1733923598
+cd linux-drivers/
+#1733923607
+vim usb-skeleton.c 
+#1733923615
+setxkbmap it
+#1733923616
+vim usb-skeleton.c 
+#1733923621
+nvim usb-skeleton.c 
+#1733923738
+clear
+#1733923742
+cd ..
+#1733923743
+l,s
+#1733923778
+clear
+#1733923779
+lks
+#1733923784
+cd linux-drivers/
+#1733923787
+vim usb-skeleton.c 
+#1733923792
+nvim usb-skeleton.c 
+#1733923885
+cd ..
+#1733923896
+ls linux/*
+#1733923899
+ls linux/
+#1733923902
+la linux/
+#1733924101
+clear
+#1733924103
+cd linux-drivers/
+#1733923775
+git clone https://github.com/torvalds/linux
+#1733924107
+vim usb-skeleton.c
+#1733924527
+nvim usb-skeleton.c
+#1733924628
+sl
+#1733924658
+nvim usb-skeleton.c
+#1733925457
+df
+#1733925465
+df -i
+#1733925475
+df --help
+#1733925515
+27+67
+#1733925527
+`27+67`
+#1733925530
+`calc 27+67`
+#1733925539
+clear
+#1733925542
+sudo pacman -S calc
+#1733925549
+`calc 27+67`
+#1733925553
+94
+#1733925559
+df
+#1733925570
+df -h
+#1733925590
+calc 15*94/100
+#1733925599
+calc 15*6/100
+#1733925607
+clear
+#1733925925
+fd
+#1733925929
+uf
+#1733925932
+fd
+#1733925933
+df
+#1733925941
+setxkbmap it
+#1733925945
+df -h
+#1733926002
+g
+#1733926080
+ghawk
+#1733926086
+gawk
+#1733926090
+clear
+#1733926094
+gawk
+#1733926111
+gawk -F: '{ print $1 }' /etc/passwd
+#1733926123
+cat /etc/passwd
+#1733926146
+lks
+#1733926414
+cd Personal/
+#1733926418
+cd linux-drivers/
+#1733926422
+nvim usb-skeleton
+#1733926429
+nvim usb-skeleton.c 
+#1733927651
+clear
+#1733927657
+mamke
+#1733927658
+make
+#1733927678
+vim Makefile 
+#1733928277
+make
+#1733928291
+vim Makefile 
+#1733928299
+make
+#1733928305
+vim Makefile 
+#1733928416
+make
+#1733928431
+sudo pacman -S build-essentials
+#1733928436
+sudo pacman -S build-essential
+#1733928455
+sudo pacman -S linux-headers-$(uname -r)
+#1733928459
+sudo pacman -S linux-headers
+#1733928501
+make
+#1733928505
+sudo make
+#1733928530
+vim usb-skeleton.c 
+#1733928554
+mv usb-skeleton.c xserve-frontpanel.c
+#1733928557
+vim Makefile 
+#1733928569
+make
+#1733928573
+sudo make
+#1733928640
+sudo pacman -Qiik linux-headers
+#1733928810
+sudo pacman -S linux-headers-`uname -r`
+#1733928901
+sudo pacman -S linux-arch
+#1733928907
+sudo pacman -S arch
+#1733928912
+sudo pacman -S linux-generic
+#1733928917
+fish
+#1733936822
+cd ..
+#1733936824
+cd projects
+#1733936827
+cd ..
+#1733936831
+cd projects
+#1733936833
+cd ..
+#1733936842
+cd projects_by_pl/
+#1733936844
+√ls
+#1733936848
+cd c
+#1733936853
+rm -i minimallogs
+#1733936871
+clear
+#1733936876
+cd ..
+#1733936895
+mv projects_by_pl/ projectsbsbpl
+#1733936897
+cd projectsbsbpl/
+#1733936900
+cd ..
+#1733936910
+mv projectspl/ projectsbpl
+#1733936922
+cd projectsbsbpl/
+#1733936925
+cd ..
+#1733936941
+rename projectsbsbpl/ projectsbpl/
+#1733936946
+mv projectsbsbpl/ projectsbpl/
+#1733936949
+cd projectsbpl/
+#1733936951
+cd c
+#1733936953
+cd ..
+#1733936955
+cd c++
+#1733936971
+ln -s ../../projects/minimallogs/
+#1733936997
+cd ..
+#1733936999
+cd rust
+#1733937011
+ln -s ../../projects/test-rust
+#1733937018
+rm -i test-rust 
+#1733937036
+ls -l ../../projects/test-rust
+#1733937048
+ln -s ../../projects/rusttest/
+#1733937050
+cd ..
+#1733937053
+cd zig
+#1733937057
+ls -l ../../projects/test-zig
+#1733937063
+ln -s ../../projects/test-zig
+#1733937065
+clear
+#1733937066
+cd ..
+#1733937067
+ls -la
+#1733937069
+lsall
+#1733937073
+cd c++
+#1733937075
+cd ..
+#1733937078
+cd projects
+#1733937090
+clear
+#1733937098
+fish
+#1733939974
+clear
+#1733939978
+cd lexer/
+#1733939981
+./install_sh 
+#1733939997
+vim install_sh 
+#1733940033
+rm install_sh 
+#1733940037
+cd build/
+#1733940037
+lks
+#1733940041
+rm liblexer.so 
+#1733940042
+cd ..
+#1733940049
+vim .gitignore 
+#1733940108
+rm build/*
+#1733940120
+cd lexer/
+#1733940125
+make+
+#1733940126
+make
+#1733940157
+rm -i Makefile 
+#1733940171
+rmdir build/
+#1733940182
+lsall
+#1733940186
+cd lexer
+#1733940188
+cd ..
+#1733940190
+rmdir lexer
+#1733940201
+vim Makefile
+#1733940205
+clear
+#1733940219
+cd ..
+#1733940229
+make test
+#1733940234
+make
+#1733940241
+vim Makefile 
+#1733940364
+make
+#1733940369
+cd build/
+#1733940382
+clear
+#1733940389
+vim test_shared.c
+#1733940589
+nvim test_shared.c
+#1733940743
+vim test_shared.c 
+#1733940862
+vim ../lexer/lexer.h 
+#1733941137
+clear
+#1733941141
+vim test_shared.c 
+#1733941165
+vim ../lexer/lexer.h 
+#1733941299
+vim test_shared.c 
+#1733941347
+cc test_shared.c -lm
+#1733941358
+vim ../lexer/lexer.h 
+#1733941370
+cc test_shared.c -lm
+#1733941373
+vim ../lexer/lexer.h 
+#1733941399
+cc test_shared.c -lm
+#1733941408
+vim test_shared.c 
+#1733941421
+cc test_shared.c -lm
+#1733941425
+./a.out 
+#1733941436
+cd ..
+#1733941440
+cd lexer/
+#1733941447
+vim lexer.h
+#1733941452
+cd ..
+#1733941457
+cd build/
+#1733941470
+vim ../lexer/debugging.h 
+#1733941488
+cc test_shared.c -lm
+#1733941489
+./a.out 
+#1733941511
+vim ../lexer/debugging.h 
+#1733941516
+./a.out 
+#1733941532
+vim test_shared.c 
+#1733941540
+lws
+#1733941551
+cc test_shared.c liblexer.so 
+#1733941561
+vim test_shared.c 
+#1733941589
+cc test_shared.c liblexer.so 
+#1733941665
+els
+#1733941675
+sdo cp liblexer.so /lib
+#1733941678
+sudo cp liblexer.so /lib
+#1733941684
+/lib
+#1733941693
+clear
+#1733941707
+cc test_shared.c -llexer 
+#1733941714
+gcc test_shared.c -llexer 
+#1733941721
+clang test_shared.c -llexer 
+#1733941728
+cleatr
+#1733941730
+clear
+#1733941731
+clang test_shared.c -llexer 
+#1733941741
+gcc test_shared.c -llexer 
+#1733941772
+cp liblexer.so /usr/lib
+#1733941775
+sudo cp liblexer.so /usr/lib
+#1733941778
+gcc test_shared.c -llexer 
+#1733941787
+gcc -llexer test
+#1733941789
+gcc -llexer test_shared.c 
+#1733941825
+cd ..
+#1733941826
+sl
+#1733941830
+cd lex
+#1733941831
+cd lexer/
+#1733941836
+vim lexer.h
+#1733943062
+clear
+#1733943070
+rm lexer.c
+#1733943071
+cd ..
+#1733943074
+vim Makefile 
+#1733943253
+√≤s
+#1733943256
+make
+#1733943260
+make test
+#1733943270
+vim lexer/lexer.h 
+#1733943300
+make test
+#1733943313
+vim lexer/debugging.h 
+#1733943322
+make test
+#1733943332
+vim lexer/debugging.h 
+#1733943341
+vim Makefile 
+#1733943354
+vim lexer/tests/Makefile 
+#1733943414
+make test
+#1733943424
+make clean
+#1733943426
+make test
+#1733943432
+clear
+#1733943433
+√≤s
+#1733943441
+vim lexer/debugging.h 
+#1733943450
+vim lexer/tests/lexer.test.c 
+#1733943468
+vim lexer/lexer.h 
+#1733943683
+make clean
+#1733943685
+make test
+#1733943692
+vim Makefile 
+#1733943716
+make test
+#1733943730
+make clean
+#1733943738
+make test
+#1733943754
+vim Makefile 
+#1733943792
+vim lexer/tests/Makefile 
+#1733943854
+clear
+#1733943861
+git add .
+#1733943888
+make
+#1733943895
+vim .gitignore 
+#1733943903
+cd build/
+#1733943908
+vim test_shared.c 
+#1733943935
+gcc -lm -llexertest_shared.c 
+#1733943938
+gcc -lm -llexer test_shared.c 
+#1733944080
+vim test_shared.c 
+#1733944088
+gcc -lm -llexer test_shared.c 
+#1733944098
+gcc -llexer
+#1733944105
+gcc -llexer test_shared.c 
+#1733944109
+gcc -llexer -lm test_shared.c 
+#1733944120
+clear
+#1733944125
+rm test_shared.c 
+#1733944126
+cd ..
+#1733944129
+git add .
+#1733944173
+git commit -m "modified structured & upped performance."
+#1733944176
+git push
+#1733944185
+clear
+#1733944190
+vim Makefile 
+#1733944195
+vim README.md 
+#1733944212
+vim docs/README.md 
+#1733944231
+git commit -m "removed `install_sh`."
+#1733944238
+git add .
+#1733944240
+git commit -m "removed `install_sh`."
+#1733944242
+git push
+#1733944246
+clear
+#1733944252
+cd ..
+#1733944258
+cd projectsbpl/
+#1733944260
+clear
+#1733944260
+cd c
+#1733944263
+cd lexer
+#1733944277
+clear
+#1733952038
+pacman -S glfw 
+#1733952043
+sudo pacman -S glfw 
+#1733952052
+clear
+#1733952052
+ks
+#1733952053
+cd ..
+#1733952059
+cd ../pro√
+#1733952060
+cd ..
+#1733952064
+cd projects
+#1733952068
+mkdir gui-c
+#1733952071
+cd gui-c/
+#1733952075
+vim todo.c
+#1733952291
+clang todo.c -lglcw
+#1733952292
+clang todo.c -lglfw
+#1733952294
+clear
+#1733952294
+clang todo.c -lglfw
+#1733952309
+nvim todo.c 
+#1733952323
+clang todo.c -lglfw
+#1733952330
+nvim todo.c 
+#1733952338
+clang todo.c -lglfw
+#1733952343
+nvim todo.c 
+#1733952357
+clang todo.c -lglfw
+#1733952369
+nvim todo.c 
+#1733952377
+clang todo.c -lglfw
+#1733952382
+clang todo.c -lglfw -v
+#1733952394
+nvim todo.c 
+#1733952427
+clang todo.c -lglfw -ldraw
+#1733952454
+clang todo.c -lglfw -ldraw -lglew32 -lgdi32 -lopengl32
+#1733952465
+sudo pacman -S opengl
+#1733952472
+sudo pacman -S opengl32
+#1733952476
+sudo pacman -S OpenGL
+#1733952498
+sudo pacman -S mesa
+#1733952512
+sudo pacman -S gdi
+#1733952518
+sudo pacman -S draw
+#1733952535
+clang todo.c -lglfw -lgdi32 -lopengl32
+#1733952541
+clang todo.c -lglfw -lopengl32
+#1733952543
+clang todo.c -lglfw -lopengl
+#1733952571
+clang -lglfe todo.c
+#1733952573
+clang -lglfw todo.c
+#1733952582
+clang -lglfw -lopengl todo.c
+#1733952599
+clang -lglfw -lglew todo.c
+#1733952610
+clang -lglfw todo.c -lglew
+#1733952616
+clang -lglfw -lglew todo.c
+#1733952618
+clang -lglfw -lm todo.c
+#1733952635
+vim todo.c 
+#1733952651
+clang -lglfw -lgl todo.c
+#1733952657
+clang -lglfw todo.c
+#1733952660
+clang -lglfw -lgl todo.c
+#1733952667
+clang -lglfw -lgl todo.c -v
+#1733952720
+sudo pacman -S glfw-x11
+#1733952726
+clang -lglfw -lgl todo.c
+#1733952737
+clang -lglfw todo.c
+#1733952778
+clang -lglfw -lgl√ew todo.c
+#1733952936
+clang -lglfw -lgGL todo.c
+#1733952940
+clang -lglfw -lGL todo.c
+#1733952942
+clear
+#1733952943
+√π./
+#1733952953
+√./todo
+#1733952958
+./a.out 
+#1733952970
+nvim todo.c 
+#1733953128
+./a.out 
+#1733953135
+nvim todo.c 
+#1733953265
+cd leif
+#1733953269
+./install.sh 
+#1733953337
+sudo su
+#1733953351
+passwd dome
+#1733953360
+su root
+#1733954133
+clear
+#1733954141
+./install.sh 
+#1733954171
+ls include/leif/
+#1733954176
+cd ..
+#1733954179
+vim todo.c
+#1733954198
+rm leif/ -rf
+#1733954207
+vim todo.c
+#1733954233
+clang -o todo.c -lglfw -lGL -lleif -lclipboard -lm
+#1733954243
+clang -o todo todo.c -lglfw -lGL -lleif -lclipboard -lm
+#1733954253
+clang todo.c -o todo -lglfw -lGL -lleif -lclipboard -lm
+#1733954260
+undo
+#1733954265
+cd leif
+#1733954265
+sl
+#1733954269
+cd ..,
+#1733954271
+..
+#1733954274
+clear
+#1733954280
+rm -rf leif/
+#1733954283
+sudo rm -rf leif/
+#1733954284
+clear
+#1733954288
+./al.
+#1733954289
+./a.out 
+#1733954294
+clear
+#1733954298
+vim todo.c
+#1733954591
+lws
+#1733954611
+git clone https://github.com/cococry/fonts ../fonts
+#1733954616
+cd ../fon
+#1733954617
+cd ../fonts
+#1733954624
+mkdir ../fonts
+#1733954632
+cd ..
+#1733954634
+cd c
+#1733954638
+cd gui-c/
+#1733954653
+git clone https://github.com/cococry/fonts.git ../fonts
+#1733954685
+git clone https://github.com/cococry/todo.git ../todo
+#1733954687
+cd ..
+#1733954689
+cd todo
+#1733954690
+sl
+#1733954702
+cp -r fonts ../gui-c/fonts
+#1733954704
+cd ../gui-c/
+#1733954705
+clear
+#1733954708
+vim gu
+#1733954715
+vim todo.c 
+#1733954721
+vim Makefile
+#1733954781
+sudo chmod +r Makefile
+#1733954784
+sudo chmod +wr Makefile
+#1733954787
+vim Makefile 
+#1733954874
+ls -l
+#1733954884
+sudo chown Makefile dome 
+#1733954890
+sudo chown dome Makefile
+#1733954891
+lks
+#1733954894
+vim Maker
+#1733954896
+vim Makefile 
+#1733955118
+make
+#1733955126
+vim Makefile 
+#1733955150
+make
+#1733955153
+vim Makefile 
+#1733955182
+make
+#1733955193
+vim Makefile 
+#1733955246
+make
+#1733955256
+alias vim=nvim
+#1733955260
+vim todo.c 
+#1733955334
+alias vim=nvim
+#1733955337
+make
+#1733955345
+vim todo.c 
+#1733955353
+clear
+#1733955360
+cd
+#1733955365
+cd .config/
+#1733955417
+mkdir nvim
+#1733955419
+cd ..
+#1733955420
+nvim
+#1733955448
+clear
+#1733955450
+cd .config/
+#1733955454
+cd nvim/
+#1733955503
+vim init.m
+#1733955525
+nvim
+#1733955546
+mv init.m init.vim
+#1733955547
+vim init.vim 
+#1733955552
+nvim init.vim 
+#1733955583
+clear
+#1733955584
+nvim
+#1734101400
+sh
+#1734101423
+setxkbmap it
+#1734101455
+ssh s_dmngcm07p19l500q@portale.itisurbino.it -p 1622
+#1734104663
+clear
+#1734105959
+scp -P 1622 -r s_dmngcm07p19l500q@portale.itisurbino.it:Documenti/Scripts/java/es_ereditariet√†√a es_ereditarieta
+#1734106916
+clear
+#1734106917
+cd
+#1734106919
+fish
+#1734105997
+fish
+#1734180687
+clear
+#1734180691
+vim .bashrc
+#1734180702
+clear
+#1734180712
+vim .tmux.conf 
+#1734180730
+setxkbmap it
+#1734180731
+vim .tmux.conf 
+#1734180760
+vim .tmux_local.
+#1734180763
+vim .tmux.conf 
+#1734181461
+cd
+#1734181467
+vim .fehbg 
+#1734181489
+. .fehbg 
+#1734181496
+source .fehbg 
+#1734181499
+source
+#1734181510
+vim .fehbg 
+#1734181517
+source
+#1734181521
+source .fehbg 
+#1734181530
+vim .fehbg 
+#1734181541
+source .fehbg 
+#1734181560
+ls $HOME/Pictures/
+#1734181575
+mv Downloads/wallh* $HOME/Pictures/
+#1734181579
+source .fehbg 
+#1734181592
+vim .fehbg 
+#1734181595
+source .fehbg 
+#1734181603
+clear
+#1734182467
+$PROJECTS

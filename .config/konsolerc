@@ -1,0 +1,19 @@
+MenuBar=Disabled
+
+[Desktop Entry]
+DefaultProfile=pref_code.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar sessionToolbar]
+ToolButtonStyle=TextOnly
+
+[Toolbar sessionToolbar]
+ToolButtonStyle=TextOnly
+
+[UiSettings]
+ColorScheme=Breeze Dark
