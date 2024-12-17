@@ -1,1 +1,0 @@
-#define MAXSIZE 2048
