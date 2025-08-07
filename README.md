@@ -6,12 +6,8 @@ using.
 This repo is best cloned as a bare repository straight into `$HOME`.
 It contains a script that clones the repository, configures it to ignore
 untracked files and do sparse checkout (so `README.md` and `LICENSE` don't show
-up), and initializes all the submodules. It can be run like this, preferably in
-`$HOME`:
+up), and initializes all the submodules. It can be run like this, preferably in `$HOME`
 
-```bash
-bash <(curl -L https://shurturl.at/V31P1)
-```
 
 Notice that this *overwrites* existing dotfiles.
 
